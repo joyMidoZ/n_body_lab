@@ -1,0 +1,18 @@
+-r
+D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\advisor\srs\e000\hs005
+--mrte-mode=auto
+--follow-child
+--return-app-exitcode
+--strategy=ld-linux.so.2:notrace:notrace,ld-linux-x86-64.so.2:notrace:notrace
+--interval=10
+--data-limit-mb=500
+--stack-stitching
+--itt-config=frame,task,event,counter,model
+--stackwalk=offline
+--stack-unwind-limit=8388608
+--mrte-type=java,dotnet,python
+--type=cpu:stack
+--opencl-trace-mode=default
+--app-working-dir=D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\build\getor
+--
+D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\build\getor\getor.exe

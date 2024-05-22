@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename="D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp"
+           line_no="84"
+           routine="Simulation::compute_func"
+           is_vectorized="1"
+           self_time="2.823038E+01"
+           total_time="0.000000E+00"
+           trip_counts=""
+           func_instance="25"
+           priority="0">
+           <recommendation id="rec_serialized_user_function_try_simd_c" title="Vectorize serialized function(s) inside loop" confidence="3" gain="-1"/>
+  </hotspot>
+  <hotspot filename="D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp"
+           line_no="152"
+           routine="Simulation::get_energy"
+           is_vectorized="1"
+           self_time="4.003924E+00"
+           total_time="0.000000E+00"
+           trip_counts=""
+           func_instance="38"
+           priority="0">
+           <recommendation id="rec_serialized_user_function_try_simd_c" title="Vectorize serialized function(s) inside loop" confidence="3" gain="-1"/>
+  </hotspot>
+  <hotspot filename="D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp"
+           line_no="84"
+           routine="Simulation::compute_func"
+           is_vectorized="1"
+           self_time="2.823038E+01"
+           total_time="0.000000E+00"
+           trip_counts=""
+           func_instance="25"
+           priority="0">
+           <recommendation id="rec_fma_target_avx2_isa_c" title="Target the AVX2 ISA" confidence="1" gain="-1"/>
+  </hotspot>
+  <hotspot filename="D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp"
+           line_no="84"
+           routine="Simulation::compute_func"
+           is_vectorized="1"
+           self_time="2.823038E+01"
+           total_time="0.000000E+00"
+           trip_counts=""
+           func_instance="25"
+           priority="0">
+           <recommendation id="rec_indirect_call_simd_c" title="Vectorize call(s) to virtual method" confidence="1" gain="-1"/>
+  </hotspot>
+  <hotspot filename="D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp"
+           line_no="152"
+           routine="Simulation::get_energy"
+           is_vectorized="1"
+           self_time="4.003924E+00"
+           total_time="0.000000E+00"
+           trip_counts=""
+           func_instance="38"
+           priority="0">
+           <recommendation id="rec_fma_target_avx2_isa_c" title="Target the AVX2 ISA" confidence="1" gain="-1"/>
+  </hotspot>
+</IntelParallelAdvisorSummary >

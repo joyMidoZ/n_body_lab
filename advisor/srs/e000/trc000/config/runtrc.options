@@ -1,0 +1,13 @@
+-r
+D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\advisor\srs\e000\trc000
+--return-app-exitcode
+--cs-mode=no-count-loops,no-count-flops,stl-profiling,stack-stitching
+--count-flops
+--benchmarks=dram,mcdram,cpu_cache,flop_peak,int,
+--cs-file=D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\advisor\srs\e000/callstacks.def
+--jit-profiling
+--target-gpu=none
+--gpu-kernel-of-interest=*
+--app-working-dir=D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\build\getor
+--
+D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\build\getor\getor.exe

@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Intel\oneAPI\advisor\2024.0\bin64\advisor" -collect suitability -mrte-mode=auto -interval=10 -data-limit=500 -project-dir "D:\

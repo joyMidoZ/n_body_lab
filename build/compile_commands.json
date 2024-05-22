@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/раб стол/УНИК/Мага/2 сем/Гетерогенные/labs/siw/build",
+  "command": "C:\\PROGRA~2\\Intel\\oneAPI\\compiler\\latest\\bin\\icx-cl.exe  /nologo /TP -I\"C:\\Program Files (x86)\\Intel\\oneAPI\\advisor\\2024.0\\include\" /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -Qstd:c++17 -O3 -Qopt-report=max -debug -Qopenmp /Qprec-sqrt- /Qprec-div- /Fogetor\\CMakeFiles\\getor.dir\\getor.cpp.obj /Fdgetor\\CMakeFiles\\getor.dir\\ -c \"D:\\раб стол\\УНИК\\Мага\\2 сем\\Гетерогенные\\labs\\siw\\getor\\getor.cpp\"",
+  "file": "D:\\раб стол\\УНИК\\Мага\\2 сем\\Гетерогенные\\labs\\siw\\getor\\getor.cpp",
+  "output": "getor\\CMakeFiles\\getor.dir\\getor.cpp.obj"
+}
+]

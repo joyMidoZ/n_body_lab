@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feedback>
+ <message severity="info">Analysis started...</message>
+ <nop/>
+ <message severity="info">Result file: D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\inspector\srs\r000ti1\r000ti1.inspxe </message>
+ <nop/>
+ <message severity="info">Found target process d:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\build\getor\getor.exe (PID = 13184). Analysis started... </message>
+ <nop/>
+ <message severity="info">Loaded module: d:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\build\getor\getor.exe. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\kernelbase.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\kernel32.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\ntdll.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\msvcp140d.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\ucrtbased.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\vcruntime140d.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files (x86)\intel\oneapi\compiler\latest\bin\libiomp5md.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\ucrtbase.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\vcruntime140.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\vcruntime140_1d.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files (x86)\intel\oneapi\inspector\2024.0\bin64\runtime\libittnotify.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\advapi32.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\msvcrt.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\sechost.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\rpcrt4.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\cryptbase.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\bcryptprimitives.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\kernel.appcore.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: d:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\build\getor\getor.exe. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\system32\kernelbase.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\system32\kernel32.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\system32\ntdll.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\system32\msvcp140d.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\system32\ucrtbased.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\system32\vcruntime140d.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\program files (x86)\intel\oneapi\compiler\latest\bin\libiomp5md.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\system32\ucrtbase.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\system32\vcruntime140.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\system32\vcruntime140_1d.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\program files (x86)\intel\oneapi\inspector\2024.0\bin64\runtime\libittnotify.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\system32\advapi32.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\system32\msvcrt.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\system32\sechost.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\system32\rpcrt4.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\system32\cryptbase.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\system32\bcryptprimitives.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\system32\kernel.appcore.dll. </message>
+ <nop/>
+ <message severity="info">Process d:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\build\getor\getor.exe (PID = 13184) has terminated. </message>
+ <nop/>
+ <message severity="info">Application exit code: 0 </message>
+ <nop/>
+ <message severity="info">Result file: D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\inspector\srs\r000ti1\r000ti1.inspxe </message>
+ <nop/>
+ <message severity="info">Analysis completed</message>
+ <nop/>
+</feedback>

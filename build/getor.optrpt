@@ -1,0 +1,1150 @@
+Global optimization report for : ??__E__annotate_routines_s@@YAXXZ
+=================================================================
+
+Global optimization report for : ?__annotate_routines_init@@YAPEAU__annotate_routines@@PEAU1@@Z
+=================================================================
+
+Global optimization report for : ?__annotate_site_beginA_t_nop@@YAXPEBD@Z
+=================================================================
+
+Global optimization report for : ?__annotate_site_end_2_t_nop@@YAXXZ
+=================================================================
+
+Global optimization report for : ?__annotate_task_beginA_t_nop@@YAXPEBD@Z
+=================================================================
+
+Global optimization report for : ?__annotate_task_end_2_t_nop@@YAXXZ
+=================================================================
+
+Global optimization report for : ?__annotate_iteration_taskA_t_nop@@YAXPEBD@Z
+=================================================================
+
+Global optimization report for : ?__annotate_lock_acquire_2_t_nop@@YAXPEAX@Z
+=================================================================
+
+Global optimization report for : ?__annotate_lock_release_2_t_nop@@YAXPEAX@Z
+=================================================================
+
+Global optimization report for : ?__annotate_record_allocation_t_nop@@YAXPEAX_K@Z
+=================================================================
+
+Global optimization report for : ?__annotate_record_deallocation_t_nop@@YAXPEAX@Z
+=================================================================
+
+Global optimization report for : ?__annotate_induction_uses_t_nop@@YAXPEAX_K@Z
+=================================================================
+
+Global optimization report for : ?__annotate_reduction_uses_t_nop@@YAXPEAX_K@Z
+=================================================================
+
+Global optimization report for : ?__annotate_observe_uses_t_nop@@YAXPEAX_K@Z
+=================================================================
+
+Global optimization report for : ?__annotate_clear_uses_t_nop@@YAXPEAX@Z
+=================================================================
+
+Global optimization report for : ?__annotate_disable_push_t_nop@@YAXW4__itt_model_disable@@@Z
+=================================================================
+
+Global optimization report for : ?__annotate_disable_pop_t_nop@@YAXXZ
+=================================================================
+
+Global optimization report for : ?__annotate_aggregate_task_t_nop@@YAX_K@Z
+=================================================================
+
+Global optimization report for : ?__annotate_is_collection_disabled_t_nop@@YAHXZ
+=================================================================
+
+Global optimization report for : ?random_float@@YAMMM@Z
+=================================================================
+
+Global optimization report for : ??Rrandom_device@std@@QEAAIXZ
+=================================================================
+
+Global optimization report for : ??0?$mersenne_twister_engine@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$0PPPPPPPP@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@$0GMAHIJGF@@std@@QEAA@I@Z
+=================================================================
+
+Global optimization report for : ??0?$uniform_real_distribution@N@std@@QEAA@NN@Z
+=================================================================
+
+Global optimization report for : ??$?RV?$mersenne_twister_engine@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$0PPPPPPPP@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@$0GMAHIJGF@@std@@@?$uniform_real@N@std@@QEAANAEAV?$mersenne_twister_engine@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$0PPPPPPPP@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@$0GMAHIJGF@@1@@Z
+=================================================================
+
+Global optimization report for : ??0?$mersenne_twister@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@@std@@QEAA@III@Z
+=================================================================
+
+Global optimization report for : ?seed@?$mersenne_twister@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@@std@@QEAAXII@Z
+
+LOOP BEGIN at C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\random (1130, 0)
+    remark #15344: Loop was not vectorized: vector dependence prevents vectorization
+    remark #15346: vector dependence: assumed FLOW dependence between _Prev (1131:0) and _Prev (1131:0) 
+    remark #15346: vector dependence: assumed FLOW dependence between _Prev (1131:0) and _Prev (1131:0) 
+    remark #25439: Loop unrolled with remainder by 8
+LOOP END
+
+LOOP BEGIN at C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\random (1130, 0)
+<Remainder loop>
+LOOP END
+=================================================================
+
+Global optimization report for : ??0?$uniform_real@N@std@@QEAA@NN@Z
+=================================================================
+
+Global optimization report for : ??0param_type@?$uniform_real@N@std@@QEAA@NN@Z
+=================================================================
+
+Global optimization report for : ?_Init@param_type@?$uniform_real@N@std@@QEAAXNN@Z
+=================================================================
+
+Global optimization report for : ?max@?$numeric_limits@N@std@@SANXZ
+=================================================================
+
+Global optimization report for : ??$_Eval@V?$mersenne_twister_engine@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$0PPPPPPPP@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@$0GMAHIJGF@@std@@@?$uniform_real@N@std@@AEBANAEAV?$mersenne_twister_engine@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$0PPPPPPPP@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@$0GMAHIJGF@@1@AEBUparam_type@01@@Z
+=================================================================
+
+Global optimization report for : ??$_Nrand_impl@NV?$mersenne_twister_engine@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$0PPPPPPPP@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@$0GMAHIJGF@@std@@@std@@YANAEAV?$mersenne_twister_engine@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$0PPPPPPPP@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@$0GMAHIJGF@@0@@Z
+=================================================================
+
+Global optimization report for : ??$generate_canonical@N$0DF@V?$mersenne_twister_engine@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$0PPPPPPPP@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@$0GMAHIJGF@@std@@@std@@YANAEAV?$mersenne_twister_engine@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$0PPPPPPPP@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@$0GMAHIJGF@@0@@Z
+
+LOOP BEGIN at C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\random (287, 0)
+    remark #15344: Loop was not vectorized: vector dependence prevents vectorization
+    remark #15346: vector dependence: assumed FLOW dependence between _Factor (289:0) and _Factor (288:0) 
+    remark #15346: vector dependence: assumed FLOW dependence between _Factor (289:0) and _Factor (289:0) 
+    remark #25436: Loop completely unrolled by 2
+LOOP END
+=================================================================
+
+Global optimization report for : ??R?$mersenne_twister@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@@std@@QEAAIXZ
+=================================================================
+
+Global optimization report for : ?_Refill_upper@?$mersenne_twister@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@@std@@IEAAXXZ
+
+LOOP BEGIN at C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\random (1249, 0)
+    remark #15344: Loop was not vectorized: vector dependence prevents vectorization
+    remark #15346: vector dependence: assumed FLOW dependence between this (1251:0) and this (1250:0) 
+    remark #15346: vector dependence: assumed FLOW dependence between this (1251:0) and this (1251:0) 
+    remark #25438: Loop unrolled without remainder by 4
+    remark #25583: Number of Array Refs Scalar Replaced In Loop: 4
+LOOP END
+=================================================================
+
+Global optimization report for : ?_Refill_lower@?$mersenne_twister@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@@std@@IEAAXXZ
+
+LOOP BEGIN at C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\random (1226, 0)
+    remark #15300: LOOP WAS VECTORIZED
+    remark #15305: vectorization support: vector length 4
+    remark #15475: --- begin vector loop cost summary ---
+    remark #15476: scalar cost: 19.000000 
+    remark #15477: vector cost: 10.609375 
+    remark #15478: estimated potential speedup: 1.765625 
+    remark #15309: vectorization support: normalized vectorization overhead 0.000000
+    remark #15570: using scalar loop trip count: 227
+    remark #15488: --- end vector loop cost summary ---
+    remark #15447: --- begin vector loop memory reference summary ---
+    remark #15450: unmasked unaligned unit stride loads: 3 
+    remark #15451: unmasked unaligned unit stride stores: 1 
+    remark #15474: --- end vector loop memory reference summary ---
+LOOP END
+
+LOOP BEGIN
+<Remainder loop for vectorization>
+    remark #15439: remainder loop was vectorized (unmasked)
+    remark #15305: vectorization support: vector length 2
+    remark #15475: --- begin vector loop cost summary ---
+    remark #15488: --- end vector loop cost summary ---
+    remark #15447: --- begin vector loop memory reference summary ---
+    remark #15450: unmasked unaligned unit stride loads: 3 
+    remark #15451: unmasked unaligned unit stride stores: 1 
+    remark #15474: --- end vector loop memory reference summary ---
+LOOP END
+
+LOOP BEGIN at C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\random (1226, 0)
+<Remainder loop for vectorization>
+    remark #25583: Number of Array Refs Scalar Replaced In Loop: 1
+LOOP END
+
+LOOP BEGIN at C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\random (1231, 0)
+    remark #15344: Loop was not vectorized: vector dependence prevents vectorization
+    remark #15346: vector dependence: assumed FLOW dependence between this (1234:0) and this (1234:0) 
+    remark #25438: Loop unrolled without remainder by 4
+    remark #25583: Number of Array Refs Scalar Replaced In Loop: 4
+LOOP END
+=================================================================
+
+Global optimization report for : main
+
+LOOP BEGIN at D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (175, 0)
+    remark #15344: Loop was not vectorized: vector dependence prevents vectorization
+    remark #15346: vector dependence: assumed OUTPUT dependence between (182:0) and bodies 
+    remark #15346: vector dependence: assumed OUTPUT dependence between (182:0) and bodies 
+    remark #15346: vector dependence: assumed OUTPUT dependence between (182:0) and bodies 
+    remark #15346: vector dependence: assumed OUTPUT dependence between (182:0) and bodies 
+    remark #15346: vector dependence: assumed OUTPUT dependence between (182:0) and bodies 
+    remark #15346: vector dependence: assumed OUTPUT dependence between (182:0) and bodies 
+    remark #15346: vector dependence: assumed OUTPUT dependence between (182:0) and bodies 
+    remark #15346: vector dependence: assumed OUTPUT dependence between (182:0) and bodies 
+    remark #15346: vector dependence: assumed OUTPUT dependence between (182:0) and bodies 
+    remark #15346: vector dependence: assumed OUTPUT dependence between (182:0) and bodies 
+LOOP END
+=================================================================
+
+Global optimization report for : ??A?$array@UBody@@$0CHBA@@std@@QEAAAEAUBody@@_K@Z
+=================================================================
+
+Global optimization report for : ??0Simulation@@QEAA@MAEBV?$array@UBody@@$0CHBA@@std@@@Z
+=================================================================
+
+Global optimization report for : ?now@steady_clock@chrono@std@@SA?AV?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@23@XZ
+=================================================================
+
+Global optimization report for : ?start@Simulation@@QEAAXH@Z
+
+LOOP BEGIN at D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (53, 0)
+    remark #15527: Loop was not vectorized: function call to  cannot be vectorized
+    remark #25439: Loop unrolled with remainder by 4
+LOOP END
+
+LOOP BEGIN at D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (53, 0)
+<Remainder loop>
+LOOP END
+=================================================================
+
+Global optimization report for : ??$duration_cast@V?$duration@_JU?$ratio@$00$0PECEA@@std@@@chrono@std@@_JU?$ratio@$00$0DLJKMKAA@@3@$0A@@chrono@std@@YA?AV?$duration@_JU?$ratio@$00$0PECEA@@std@@@01@AEBV?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@01@@Z
+=================================================================
+
+Global optimization report for : ??$?GUsteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@12@V312@@chrono@std@@YA?AV?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@01@AEBV?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@01@0@Z
+=================================================================
+
+Global optimization report for : ?count@?$duration@_JU?$ratio@$00$0PECEA@@std@@@chrono@std@@QEBA_JXZ
+=================================================================
+
+Global optimization report for : ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z
+
+LOOP BEGIN at C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream (782, 0)
+LOOP END
+
+LOOP BEGIN at C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream (795, 0)
+LOOP END
+=================================================================
+
+Global optimization report for : ??$endl@DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@@Z
+=================================================================
+
+Global optimization report for : ??$?0_J$0A@@?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@chrono@std@@QEAA@AEB_J@Z
+=================================================================
+
+Global optimization report for : ??0?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@chrono@std@@QEAA@AEBV?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@12@@Z
+=================================================================
+
+Global optimization report for : ?compute_func@Simulation@@AEAAXXZ
+=================================================================
+
+Global optimization report for : ?update_data@Simulation@@AEAAXXZ
+=================================================================
+
+Global optimization report for : ?get_energy@Simulation@@AEAAMXZ
+=================================================================
+
+Global optimization report for : ?size@?$array@UBody@@$0CHBA@@std@@QEBA_KXZ
+=================================================================
+
+Global optimization report for : ?sqrt@@YAMM@Z
+=================================================================
+
+Global optimization report for : ?end@?$array@UBody@@$0CHBA@@std@@QEAA?AV?$_Array_iterator@UBody@@$0CHBA@@2@XZ
+=================================================================
+
+Global optimization report for : ?begin@?$array@UBody@@$0CHBA@@std@@QEAA?AV?$_Array_iterator@UBody@@$0CHBA@@2@XZ
+=================================================================
+
+Global optimization report for : ??G?$_Array_const_iterator@UBody@@$0CHBA@@std@@QEBA_JAEBV01@@Z
+=================================================================
+
+Global optimization report for : ??M?$_Array_const_iterator@UBody@@$0CHBA@@std@@QEBA_NAEBV01@@Z
+=================================================================
+
+Global optimization report for : ??Y?$_Array_iterator@UBody@@$0CHBA@@std@@QEAAAEAV01@_J@Z
+=================================================================
+
+Global optimization report for : ??D?$_Array_iterator@UBody@@$0CHBA@@std@@QEBAAEAUBody@@XZ
+=================================================================
+
+Global optimization report for : ??0?$_Array_iterator@UBody@@$0CHBA@@std@@QEAA@PEAUBody@@_K@Z
+=================================================================
+
+Global optimization report for : ??0?$_Array_const_iterator@UBody@@$0CHBA@@std@@QEAA@PEBUBody@@_K@Z
+=================================================================
+
+Global optimization report for : ??0_Iterator_base12_compatible@std@@QEAA@XZ
+=================================================================
+
+Global optimization report for : ?_Compat@?$_Array_const_iterator@UBody@@$0CHBA@@std@@QEBAXAEBV12@@Z
+=================================================================
+
+Global optimization report for : ??Y?$_Array_const_iterator@UBody@@$0CHBA@@std@@QEAAAEAV01@_J@Z
+=================================================================
+
+Global optimization report for : ?_Verify_offset@?$_Array_const_iterator@UBody@@$0CHBA@@std@@QEBAX_J@Z
+=================================================================
+
+Global optimization report for : ??D?$_Array_const_iterator@UBody@@$0CHBA@@std@@QEBAAEBUBody@@XZ
+=================================================================
+
+Global optimization report for : ??C?$_Array_const_iterator@UBody@@$0CHBA@@std@@QEBAPEBUBody@@XZ
+=================================================================
+
+Global optimization report for : ?count@?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@chrono@std@@QEBA_JXZ
+=================================================================
+
+Global optimization report for : ??$?0_J$0A@@?$duration@_JU?$ratio@$00$0PECEA@@std@@@chrono@std@@QEAA@AEB_J@Z
+=================================================================
+
+Global optimization report for : ??$?G_JU?$ratio@$00$0DLJKMKAA@@std@@_JU01@@chrono@std@@YA?AV?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@01@AEBV201@0@Z
+=================================================================
+
+Global optimization report for : ?time_since_epoch@?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@chrono@std@@QEBA?AV?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@XZ
+=================================================================
+
+Global optimization report for : ?length@?$_Narrow_char_traits@DH@std@@SA_KQEBD@Z
+=================================================================
+
+Global optimization report for : ??0sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@AEAV12@@Z
+=================================================================
+
+Global optimization report for : ??Bsentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEBA_NXZ
+=================================================================
+
+Global optimization report for : ?eq_int_type@?$_Narrow_char_traits@DH@std@@SA_NHH@Z
+=================================================================
+
+Global optimization report for : ?eof@?$_Narrow_char_traits@DH@std@@SAHXZ
+=================================================================
+
+Global optimization report for : ??1sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+=================================================================
+
+Global optimization report for : ??0_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@AEAV12@@Z
+=================================================================
+
+Global optimization report for : ??1_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+=================================================================
+
+Global optimization report for : _GLOBAL__sub_I_getor.cpp
+=================================================================
+
+Global optimization report for : ?compute_func@Simulation@@AEAAXXZ.extracted
+
+LOOP BEGIN at D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (79, 0)
+    remark #25591: OpenMP: Outlined parallel loop
+
+    LOOP BEGIN at D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (84, 0)
+        remark #15521: Loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+    LOOP END
+LOOP END
+=================================================================
+
+Global optimization report for : ?update_data@Simulation@@AEAAXXZ.extracted
+
+LOOP BEGIN at D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (113, 0)
+    remark #25591: OpenMP: Outlined parallel loop
+    remark #15301: SIMD LOOP WAS VECTORIZED
+    remark #15305: vectorization support: vector length 4
+    remark #15475: --- begin vector loop cost summary ---
+    remark #15476: scalar cost: 64.000000 
+    remark #15477: vector cost: 94.750000 
+    remark #15478: estimated potential speedup: 0.671875 
+    remark #15309: vectorization support: normalized vectorization overhead 0.046875
+    remark #15485: serialized function calls: 4
+    remark #15558: Call to function 'llvm.memcpy.p0.p0.i64' was serialized due to no suitable vector variants were found.
+    remark #15558: Call to function '??Y?$_Array_iterator@UBody@@$0CHBA@@std@@QEAAAEAV01@_J@Z' was serialized due to no suitable vector variants were found.
+    remark #15558: Call to function '??D?$_Array_iterator@UBody@@$0CHBA@@std@@QEBAAEAUBody@@XZ' was serialized due to no suitable vector variants were found.
+    remark #15560: Indirect call cannot be vectorized.
+    remark #15488: --- end vector loop cost summary ---
+    remark #15447: --- begin vector loop memory reference summary ---
+    remark #15462: unmasked indexed (or gather) loads: 9 
+    remark #15463: unmasked indexed (or scatter) stores: 6 
+    remark #15567: Gathers are generated due to non-unit stride index of the corresponding loads.
+    remark #15568: Scatters are generated due to non-unit stride index of the corresponding stores.
+    remark #15474: --- end vector loop memory reference summary ---
+LOOP END
+
+LOOP BEGIN at D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (113, 0)
+<Remainder loop for vectorization>
+LOOP END
+=================================================================
+
+Global optimization report for : ?get_energy@Simulation@@AEAAMXZ_tree_reduce_32
+=================================================================
+
+Global optimization report for : ?get_energy@Simulation@@AEAAMXZ.extracted
+
+LOOP BEGIN at D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (146, 0)
+    remark #25591: OpenMP: Outlined parallel loop
+
+    LOOP BEGIN at D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (152, 0)
+        remark #15521: Loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+    LOOP END
+LOOP END
+=================================================================
+
+---- Begin Inlining Report ----
+Option Values:
+  inline-threshold: 225
+  inlinehint-threshold: 325
+  inlinecold-threshold: 45
+  inlineoptsize-threshold: 15
+
+DEAD STATIC FUNC: ?__annotate_routines@@YAPEAU0@XZ
+
+DEAD STATIC FUNC: ?clear@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
+
+DEAD STATIC FUNC: ?rdstate@ios_base@std@@QEBAHXZ
+
+DEAD STATIC FUNC: _Init_thread_abort
+
+DEAD STATIC FUNC: _ZGVbM4v_?get_energy@Simulation@@AEAAMXZ
+
+DEAD STATIC FUNC: _ZGVbN4v_?get_energy@Simulation@@AEAAMXZ
+
+DEAD STATIC FUNC: _ZGVcM8v_?get_energy@Simulation@@AEAAMXZ
+
+DEAD STATIC FUNC: _ZGVcN8v_?get_energy@Simulation@@AEAAMXZ
+
+DEAD STATIC FUNC: _ZGVdM8v_?get_energy@Simulation@@AEAAMXZ
+
+DEAD STATIC FUNC: _ZGVdN8v_?get_energy@Simulation@@AEAAMXZ
+
+DEAD STATIC FUNC: _ZGVeM16v_?get_energy@Simulation@@AEAAMXZ
+
+DEAD STATIC FUNC: _ZGVeN16v_?get_energy@Simulation@@AEAAMXZ
+
+DEAD STATIC FUNC: llvm.directive.region.entry
+
+DEAD STATIC FUNC: llvm.directive.region.exit
+
+DEAD STATIC FUNC: llvm.intel.directive.elementsize
+
+DEAD STATIC FUNC: llvm.intel.fakeload.p0
+
+DEAD STATIC FUNC: llvm.ssa.copy.f32
+
+DEAD STATIC FUNC: llvm.ssa.copy.i1
+
+DEAD STATIC FUNC: llvm.ssa.copy.i32
+
+DEAD STATIC FUNC: llvm.ssa.copy.i64
+
+COMPILE FUNC: ??0Simulation@@QEAA@MAEBV?$array@UBody@@$0CHBA@@std@@@Z
+   -> llvm.memcpy.p0.p0.i64 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (49,0)
+
+COMPILE FUNC: main
+   -> ??0Simulation@@QEAA@MAEBV?$array@UBody@@$0CHBA@@std@@@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (186,0)
+   -> DELETE: _Init_thread_abort D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (186,0)
+   -> DELETE: llvm.memcpy.p0.p0.i64 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (182,0)
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> ?random_float@@YAMMM@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (177,0)
+   -> ?random_float@@YAMMM@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (177,0)
+   -> ?random_float@@YAMMM@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (177,0)
+   -> ?random_float@@YAMMM@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (178,0)
+   -> ?random_float@@YAMMM@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (178,0)
+   -> ?random_float@@YAMMM@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (178,0)
+   -> ?random_float@@YAMMM@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (180,0)
+   -> ??A?$array@UBody@@$0CHBA@@std@@QEAAAEAUBody@@_K@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (182,0)
+   -> EXTERN: _Init_thread_header D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (186,0)
+   -> EXTERN: _Init_thread_footer D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (186,0)
+   -> ?now@steady_clock@chrono@std@@SA?AV?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@23@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (188,0)
+   -> ?start@Simulation@@QEAAXH@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (189,0)
+   -> ?now@steady_clock@chrono@std@@SA?AV?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@23@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (190,0)
+   -> ??$?GUsteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@12@V312@@chrono@std@@YA?AV?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@01@AEBV?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@01@0@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (192,0)
+   -> ??$duration_cast@V?$duration@_JU?$ratio@$00$0PECEA@@std@@@chrono@std@@_JU?$ratio@$00$0DLJKMKAA@@3@$0A@@chrono@std@@YA?AV?$duration@_JU?$ratio@$00$0PECEA@@std@@@01@AEBV?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@01@@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (192,0)
+   -> ?count@?$duration@_JU?$ratio@$00$0PECEA@@std@@@chrono@std@@QEBA_JXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (192,0)
+   -> ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (193,0)
+   -> EXTERN: ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_J@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (193,0)
+   -> ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (193,0)
+   -> ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (193,0)
+   -> EXTERN: __kmpc_end D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> EXTERN: __kmpc_end D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+
+COMPILE FUNC: ??Bsentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEBA_NXZ
+
+COMPILE FUNC: ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z
+   -> ??Bsentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEBA_NXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (776,0)
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> ?length@?$_Narrow_char_traits@DH@std@@SA_KQEBD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (772,0)
+   -> ?width@ios_base@std@@QEBA_JXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (773,0)
+   -> ?width@ios_base@std@@QEBA_JXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (773,0)
+   -> ?width@ios_base@std@@QEBA_JXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (773,0)
+   -> ??0sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@AEAV12@@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (774,0)
+   -> ?flags@ios_base@std@@QEBAHXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (780,0)
+   -> ?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBAPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (782,0)
+   -> ?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (782,0)
+   -> EXTERN: ?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (782,0)
+   -> ?eof@?$_Narrow_char_traits@DH@std@@SAHXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (782,0)
+   -> ?eq_int_type@?$_Narrow_char_traits@DH@std@@SA_NHH@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (782,0)
+   -> ?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBAPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (789,0)
+   -> ?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (789,0)
+   -> ?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBAPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (795,0)
+   -> ?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (795,0)
+   -> EXTERN: ?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (795,0)
+   -> ?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (803,0)
+   -> ?eof@?$_Narrow_char_traits@DH@std@@SAHXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (795,0)
+   -> ?eq_int_type@?$_Narrow_char_traits@DH@std@@SA_NHH@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (795,0)
+   -> ?width@ios_base@std@@QEAA_J_J@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (802,0)
+   -> ?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (806,0)
+   -> ??1sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (808,0)
+   -> ??1sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (808,0)
+
+COMPILE FUNC: ?compute_func@Simulation@@AEAAXXZ
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.intel.directive.elementsize D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (74,0)
+   -> INDIRECT: D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (77,0)
+   -> ?size@?$array@UBody@@$0CHBA@@std@@QEBA_KXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (79,0)
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> BROKER: __kmpc_fork_call D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (79,0)(?compute_func@Simulation@@AEAAXXZ.extracted)
+
+COMPILE FUNC: ?update_data@Simulation@@AEAAXXZ
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.intel.directive.elementsize D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (109,0)
+   -> INDIRECT: D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (111,0)
+   -> ?end@?$array@UBody@@$0CHBA@@std@@QEAA?AV?$_Array_iterator@UBody@@$0CHBA@@2@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (114,0)
+   -> ?begin@?$array@UBody@@$0CHBA@@std@@QEAA?AV?$_Array_iterator@UBody@@$0CHBA@@2@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (114,0)
+   -> ??G?$_Array_const_iterator@UBody@@$0CHBA@@std@@QEBA_JAEBV01@@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (114,0)
+   -> ??M?$_Array_const_iterator@UBody@@$0CHBA@@std@@QEBA_NAEBV01@@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (114,0)
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> BROKER: __kmpc_fork_call D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (114,0)(?update_data@Simulation@@AEAAXXZ.extracted)
+
+COMPILE FUNC: ?get_energy@Simulation@@AEAAMXZ
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.intel.directive.elementsize D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (143,0)
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> ?size@?$array@UBody@@$0CHBA@@std@@QEBA_KXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (146,0)
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> BROKER: __kmpc_fork_call D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (146,0)(?get_energy@Simulation@@AEAAMXZ.extracted)
+
+COMPILE FUNC: ??0?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@chrono@std@@QEAA@AEBV?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@12@@Z
+   -> DELETE: llvm.memcpy.p0.p0.i64 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (203,0)
+
+COMPILE FUNC: ??$?G_JU?$ratio@$00$0DLJKMKAA@@std@@_JU01@@chrono@std@@YA?AV?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@01@AEBV201@0@Z
+   -> DELETE: llvm.memcpy.p0.p0.i64 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (291,0)
+   -> DELETE: llvm.memcpy.p0.p0.i64 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (291,0)
+   -> ?count@?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@chrono@std@@QEBA_JXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (291,0)
+   -> ?count@?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@chrono@std@@QEBA_JXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (291,0)
+   -> ??$?0_J$0A@@?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@chrono@std@@QEAA@AEB_J@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (291,0)
+
+COMPILE FUNC: ?time_since_epoch@?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@chrono@std@@QEBA?AV?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@XZ
+   -> DELETE: llvm.memcpy.p0.p0.i64 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (211,0)
+
+COMPILE FUNC: ?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
+   -> DELETE: ?rdstate@ios_base@std@@QEBAHXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (51,0)
+   -> DELETE: ?clear@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (51,0)
+
+COMPILE FUNC: ??Rrandom_device@std@@QEAAIXZ
+   -> EXTERN: ?_Random_device@std@@YAIXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (5216,0)
+
+COMPILE FUNC: ?seed@?$mersenne_twister@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@@std@@QEAAXII@Z
+   -> DELETE: llvm.ssa.copy.i32 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.ssa.copy.i64 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (1130,0)
+
+COMPILE FUNC: ??0?$mersenne_twister@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@@std@@QEAA@III@Z
+   -> ?seed@?$mersenne_twister@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@@std@@QEAAXII@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (1119,0)
+
+COMPILE FUNC: ??0?$mersenne_twister_engine@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$0PPPPPPPP@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@$0GMAHIJGF@@std@@QEAA@I@Z
+   -> ??0?$mersenne_twister@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@@std@@QEAA@III@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (1299,0)
+
+COMPILE FUNC: ?max@?$numeric_limits@N@std@@SANXZ
+
+COMPILE FUNC: ?_Init@param_type@?$uniform_real@N@std@@QEAAXNN@Z
+   -> ?max@?$numeric_limits@N@std@@SANXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (2766,0)
+   -> EXTERN: _CrtDbgReport D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (2766,0)
+   -> llvm.debugtrap D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (2766,0)
+   -> EXTERN: _invalid_parameter D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (2766,0)
+
+COMPILE FUNC: ??0param_type@?$uniform_real@N@std@@QEAA@NN@Z
+   -> ?_Init@param_type@?$uniform_real@N@std@@QEAAXNN@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (2742,0)
+
+COMPILE FUNC: ??0?$uniform_real@N@std@@QEAA@NN@Z
+   -> ??0param_type@?$uniform_real@N@std@@QEAA@NN@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (2778,0)
+
+COMPILE FUNC: ??0?$uniform_real_distribution@N@std@@QEAA@NN@Z
+   -> ??0?$uniform_real@N@std@@QEAA@NN@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (2881,0)
+
+COMPILE FUNC: ?_Refill_upper@?$mersenne_twister@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@@std@@IEAAXXZ
+   -> DELETE: llvm.ssa.copy.i64 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (1249,0)
+
+COMPILE FUNC: ?_Refill_lower@?$mersenne_twister@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@@std@@IEAAXXZ
+   -> DELETE: llvm.ssa.copy.i64 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (1226,0)
+   -> DELETE: llvm.ssa.copy.i64 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (1231,0)
+
+COMPILE FUNC: ??R?$mersenne_twister@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@@std@@QEAAIXZ
+   -> ?_Refill_upper@?$mersenne_twister@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@@std@@IEAAXXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (1188,0)
+   -> ?_Refill_lower@?$mersenne_twister@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@@std@@IEAAXXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (1190,0)
+
+COMPILE FUNC: ??$generate_canonical@N$0DF@V?$mersenne_twister_engine@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$0PPPPPPPP@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@$0GMAHIJGF@@std@@@std@@YANAEAV?$mersenne_twister_engine@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$0PPPPPPPP@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@$0GMAHIJGF@@0@@Z
+   -> DELETE: ??R?$mersenne_twister@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@@std@@QEAAIXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (288,0)
+   -> ??R?$mersenne_twister@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@@std@@QEAAIXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (288,0)
+   -> ??R?$mersenne_twister@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@@std@@QEAAIXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (288,0)
+   -> DELETE: llvm.ssa.copy.i1 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+
+COMPILE FUNC: ??$_Nrand_impl@NV?$mersenne_twister_engine@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$0PPPPPPPP@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@$0GMAHIJGF@@std@@@std@@YANAEAV?$mersenne_twister_engine@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$0PPPPPPPP@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@$0GMAHIJGF@@0@@Z
+   -> ??$generate_canonical@N$0DF@V?$mersenne_twister_engine@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$0PPPPPPPP@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@$0GMAHIJGF@@std@@@std@@YANAEAV?$mersenne_twister_engine@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$0PPPPPPPP@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@$0GMAHIJGF@@0@@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (312,0)
+
+COMPILE FUNC: ??$_Eval@V?$mersenne_twister_engine@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$0PPPPPPPP@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@$0GMAHIJGF@@std@@@?$uniform_real@N@std@@AEBANAEAV?$mersenne_twister_engine@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$0PPPPPPPP@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@$0GMAHIJGF@@1@AEBUparam_type@01@@Z
+   -> ??$_Nrand_impl@NV?$mersenne_twister_engine@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$0PPPPPPPP@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@$0GMAHIJGF@@std@@@std@@YANAEAV?$mersenne_twister_engine@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$0PPPPPPPP@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@$0GMAHIJGF@@0@@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (2850,0)
+
+COMPILE FUNC: ??$?RV?$mersenne_twister_engine@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$0PPPPPPPP@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@$0GMAHIJGF@@std@@@?$uniform_real@N@std@@QEAANAEAV?$mersenne_twister_engine@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$0PPPPPPPP@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@$0GMAHIJGF@@1@@Z
+   -> ??$_Eval@V?$mersenne_twister_engine@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$0PPPPPPPP@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@$0GMAHIJGF@@std@@@?$uniform_real@N@std@@AEBANAEAV?$mersenne_twister_engine@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$0PPPPPPPP@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@$0GMAHIJGF@@1@AEBUparam_type@01@@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (2810,0)
+
+COMPILE FUNC: ?random_float@@YAMMM@Z
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> ??Rrandom_device@std@@QEAAIXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (37,0)
+   -> ??0?$mersenne_twister_engine@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$0PPPPPPPP@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@$0GMAHIJGF@@std@@QEAA@I@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (37,0)
+   -> ??0?$uniform_real_distribution@N@std@@QEAA@NN@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (38,0)
+   -> ??$?RV?$mersenne_twister_engine@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$0PPPPPPPP@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@$0GMAHIJGF@@std@@@?$uniform_real@N@std@@QEAANAEAV?$mersenne_twister_engine@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$0PPPPPPPP@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@$0GMAHIJGF@@1@@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (39,0)
+
+COMPILE FUNC: ??A?$array@UBody@@$0CHBA@@std@@QEAAAEAUBody@@_K@Z
+   -> EXTERN: _CrtDbgReport D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (533,0)
+   -> llvm.debugtrap D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (533,0)
+   -> EXTERN: _invalid_parameter D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (533,0)
+   -> DELETE: llvm.intel.fakeload.p0 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (536,0)
+
+COMPILE FUNC: ??$?0_J$0A@@?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@chrono@std@@QEAA@AEB_J@Z
+
+COMPILE FUNC: ?now@steady_clock@chrono@std@@SA?AV?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@23@XZ
+   -> EXTERN: _Query_perf_frequency D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (679,0)
+   -> EXTERN: _Query_perf_counter D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (680,0)
+   -> ??$?0_J$0A@@?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@chrono@std@@QEAA@AEB_J@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (693,0)
+   -> ??0?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@chrono@std@@QEAA@AEBV?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@12@@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (693,0)
+   -> ??$?0_J$0A@@?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@chrono@std@@QEAA@AEB_J@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (698,0)
+   -> ??0?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@chrono@std@@QEAA@AEBV?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@12@@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (698,0)
+   -> ??$?0_J$0A@@?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@chrono@std@@QEAA@AEB_J@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (707,0)
+   -> ??0?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@chrono@std@@QEAA@AEBV?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@12@@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (707,0)
+
+COMPILE FUNC: ?size@?$array@UBody@@$0CHBA@@std@@QEBA_KXZ
+
+COMPILE FUNC: ?sqrt@@YAMM@Z
+   -> llvm.sqrt.f32 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (265,0)
+
+COMPILE FUNC: ??0_Iterator_base12_compatible@std@@QEAA@XZ
+   -> llvm.memset.p0.i64 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (21,0)
+
+COMPILE FUNC: ??0?$_Array_const_iterator@UBody@@$0CHBA@@std@@QEAA@PEBUBody@@_K@Z
+   -> ??0_Iterator_base12_compatible@std@@QEAA@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (130,0)
+
+COMPILE FUNC: ??0?$_Array_iterator@UBody@@$0CHBA@@std@@QEAA@PEAUBody@@_K@Z
+   -> ??0?$_Array_const_iterator@UBody@@$0CHBA@@std@@QEAA@PEBUBody@@_K@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (320,0)
+
+COMPILE FUNC: ?end@?$array@UBody@@$0CHBA@@std@@QEAA?AV?$_Array_iterator@UBody@@$0CHBA@@2@XZ
+   -> ??0?$_Array_iterator@UBody@@$0CHBA@@std@@QEAA@PEAUBody@@_K@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (448,0)
+
+COMPILE FUNC: ?begin@?$array@UBody@@$0CHBA@@std@@QEAA?AV?$_Array_iterator@UBody@@$0CHBA@@2@XZ
+   -> ??0?$_Array_iterator@UBody@@$0CHBA@@std@@QEAA@PEAUBody@@_K@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (440,0)
+
+COMPILE FUNC: ?_Compat@?$_Array_const_iterator@UBody@@$0CHBA@@std@@QEBAXAEBV12@@Z
+   -> EXTERN: _CrtDbgReport D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (219,0)
+   -> llvm.debugtrap D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (219,0)
+   -> EXTERN: _invalid_parameter D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (219,0)
+
+COMPILE FUNC: ??G?$_Array_const_iterator@UBody@@$0CHBA@@std@@QEBA_JAEBV01@@Z
+   -> ?_Compat@?$_Array_const_iterator@UBody@@$0CHBA@@std@@QEBAXAEBV12@@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (193,0)
+
+COMPILE FUNC: ??M?$_Array_const_iterator@UBody@@$0CHBA@@std@@QEBA_NAEBV01@@Z
+   -> ?_Compat@?$_Array_const_iterator@UBody@@$0CHBA@@std@@QEBAXAEBV12@@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (213,0)
+
+COMPILE FUNC: ?_Verify_offset@?$_Array_const_iterator@UBody@@$0CHBA@@std@@QEBAX_J@Z
+   -> EXTERN: _CrtDbgReport D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (170,0)
+   -> llvm.debugtrap D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (170,0)
+   -> EXTERN: _invalid_parameter D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (170,0)
+   -> EXTERN: _CrtDbgReport D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (174,0)
+   -> llvm.debugtrap D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (174,0)
+   -> EXTERN: _invalid_parameter D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (174,0)
+   -> EXTERN: _CrtDbgReport D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (178,0)
+   -> llvm.debugtrap D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (178,0)
+   -> EXTERN: _invalid_parameter D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (178,0)
+
+COMPILE FUNC: ??Y?$_Array_const_iterator@UBody@@$0CHBA@@std@@QEAAAEAV01@_J@Z
+   -> ?_Verify_offset@?$_Array_const_iterator@UBody@@$0CHBA@@std@@QEBAX_J@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (183,0)
+
+COMPILE FUNC: ??Y?$_Array_iterator@UBody@@$0CHBA@@std@@QEAAAEAV01@_J@Z
+   -> ??Y?$_Array_const_iterator@UBody@@$0CHBA@@std@@QEAAAEAV01@_J@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (353,0)
+
+COMPILE FUNC: ??C?$_Array_const_iterator@UBody@@$0CHBA@@std@@QEBAPEBUBody@@XZ
+   -> EXTERN: _CrtDbgReport D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (137,0)
+   -> llvm.debugtrap D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (137,0)
+   -> EXTERN: _invalid_parameter D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (137,0)
+   -> EXTERN: _CrtDbgReport D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (138,0)
+   -> llvm.debugtrap D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (138,0)
+   -> EXTERN: _invalid_parameter D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (138,0)
+
+COMPILE FUNC: ??D?$_Array_const_iterator@UBody@@$0CHBA@@std@@QEBAAEBUBody@@XZ
+   -> ??C?$_Array_const_iterator@UBody@@$0CHBA@@std@@QEBAPEBUBody@@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (133,0)
+
+COMPILE FUNC: ??D?$_Array_iterator@UBody@@$0CHBA@@std@@QEBAAEAUBody@@XZ
+   -> ??D?$_Array_const_iterator@UBody@@$0CHBA@@std@@QEBAAEBUBody@@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (323,0)
+
+COMPILE FUNC: ?length@?$_Narrow_char_traits@DH@std@@SA_KQEBD@Z
+   -> EXTERN: strlen D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (398,0)
+
+COMPILE FUNC: ?width@ios_base@std@@QEBA_JXZ
+
+COMPILE FUNC: ?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBAPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ
+
+COMPILE FUNC: ??0_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@AEAV12@@Z
+   -> ?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBAPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (76,0)
+   -> INDIRECT: D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (78,0)
+
+COMPILE FUNC: ?tie@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBAPEAV?$basic_ostream@DU?$char_traits@D@std@@@2@XZ
+
+COMPILE FUNC: ??1_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+   -> ?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBAPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (83,0)
+   -> INDIRECT: D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (85,0)
+   -> EXTERN: __std_terminate D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (85,0)
+
+COMPILE FUNC: ??0sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@AEAV12@@Z
+   -> ??0_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@AEAV12@@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (96,0)
+   -> EXTERN: ?good@ios_base@std@@QEBA_NXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (97,0)
+   -> ?tie@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBAPEAV?$basic_ostream@DU?$char_traits@D@std@@@2@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (102,0)
+   -> EXTERN: ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (108,0)
+   -> EXTERN: ?good@ios_base@std@@QEBA_NXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (109,0)
+   -> ??1_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (110,0)
+
+COMPILE FUNC: ?flags@ios_base@std@@QEBAHXZ
+
+COMPILE FUNC: ?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADXZ
+
+COMPILE FUNC: ?eof@?$_Narrow_char_traits@DH@std@@SAHXZ
+
+COMPILE FUNC: ?eq_int_type@?$_Narrow_char_traits@DH@std@@SA_NHH@Z
+
+COMPILE FUNC: ?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z
+   -> DELETE:  D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (171,0)
+
+COMPILE FUNC: ?width@ios_base@std@@QEAA_J_J@Z
+
+COMPILE FUNC: ??1sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+   -> EXTERN: ?uncaught_exception@std@@YA_NXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (117,0)
+   -> EXTERN: ?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (123,0)
+   -> ??1_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (125,0)
+
+COMPILE FUNC: ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z
+   -> DELETE:  D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (191,0)
+
+COMPILE FUNC: ?count@?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@chrono@std@@QEBA_JXZ
+
+COMPILE FUNC: ??$?GUsteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@12@V312@@chrono@std@@YA?AV?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@01@AEBV?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@01@0@Z
+   -> ?time_since_epoch@?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@chrono@std@@QEBA?AV?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (549,0)
+   -> ?time_since_epoch@?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@chrono@std@@QEBA?AV?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (549,0)
+   -> ??$?G_JU?$ratio@$00$0DLJKMKAA@@std@@_JU01@@chrono@std@@YA?AV?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@01@AEBV201@0@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (549,0)
+
+COMPILE FUNC: ??$?0_J$0A@@?$duration@_JU?$ratio@$00$0PECEA@@std@@@chrono@std@@QEAA@AEB_J@Z
+
+COMPILE FUNC: ??$duration_cast@V?$duration@_JU?$ratio@$00$0PECEA@@std@@@chrono@std@@_JU?$ratio@$00$0DLJKMKAA@@3@$0A@@chrono@std@@YA?AV?$duration@_JU?$ratio@$00$0PECEA@@std@@@01@AEBV?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@01@@Z
+   -> ?count@?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@chrono@std@@QEBA_JXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (440,0)
+   -> ??$?0_J$0A@@?$duration@_JU?$ratio@$00$0PECEA@@std@@@chrono@std@@QEAA@AEB_J@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (440,0)
+
+COMPILE FUNC: ?count@?$duration@_JU?$ratio@$00$0PECEA@@std@@@chrono@std@@QEBA_JXZ
+
+COMPILE FUNC: ??$endl@DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@@Z
+   -> EXTERN: ?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (1011,0)
+   -> EXTERN: ?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (1011,0)
+   -> EXTERN: ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (1012,0)
+
+COMPILE FUNC: ?start@Simulation@@QEAAXH@Z
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: ?now@steady_clock@chrono@std@@SA?AV?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@23@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (55,0)
+   -> DELETE: ?compute_func@Simulation@@AEAAXXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (56,0)
+   -> DELETE: ?update_data@Simulation@@AEAAXXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (57,0)
+   -> DELETE: ?get_energy@Simulation@@AEAAMXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (59,0)
+   -> DELETE: ?now@steady_clock@chrono@std@@SA?AV?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@23@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (60,0)
+   -> DELETE: ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> DELETE: ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> DELETE: ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> DELETE: ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@M@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> DELETE: ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> DELETE: ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@M@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> DELETE: ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> DELETE: ??$?GUsteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@12@V312@@chrono@std@@YA?AV?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@01@AEBV?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@01@0@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (65,0)
+   -> DELETE: ??$duration_cast@V?$duration@_JU?$ratio@$00$0PECEA@@std@@@chrono@std@@_JU?$ratio@$00$0DLJKMKAA@@3@$0A@@chrono@std@@YA?AV?$duration@_JU?$ratio@$00$0PECEA@@std@@@01@AEBV?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@01@@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (65,0)
+   -> DELETE: ?count@?$duration@_JU?$ratio@$00$0PECEA@@std@@@chrono@std@@QEBA_JXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (65,0)
+   -> DELETE: ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (66,0)
+   -> DELETE: ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_J@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (66,0)
+   -> DELETE: ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (66,0)
+   -> DELETE: ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (66,0)
+   -> ?now@steady_clock@chrono@std@@SA?AV?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@23@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (55,0)
+   -> ?compute_func@Simulation@@AEAAXXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (56,0)
+   -> ?update_data@Simulation@@AEAAXXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (57,0)
+   -> ?get_energy@Simulation@@AEAAMXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (59,0)
+   -> ?now@steady_clock@chrono@std@@SA?AV?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@23@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (60,0)
+   -> ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> EXTERN: ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> EXTERN: ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@M@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> EXTERN: ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@M@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> ??$?GUsteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@12@V312@@chrono@std@@YA?AV?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@01@AEBV?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@01@0@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (65,0)
+   -> ??$duration_cast@V?$duration@_JU?$ratio@$00$0PECEA@@std@@@chrono@std@@_JU?$ratio@$00$0DLJKMKAA@@3@$0A@@chrono@std@@YA?AV?$duration@_JU?$ratio@$00$0PECEA@@std@@@01@AEBV?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@01@@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (65,0)
+   -> ?count@?$duration@_JU?$ratio@$00$0PECEA@@std@@@chrono@std@@QEBA_JXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (65,0)
+   -> ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (66,0)
+   -> EXTERN: ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_J@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (66,0)
+   -> ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (66,0)
+   -> ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (66,0)
+   -> ?now@steady_clock@chrono@std@@SA?AV?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@23@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (55,0)
+   -> ?compute_func@Simulation@@AEAAXXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (56,0)
+   -> ?update_data@Simulation@@AEAAXXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (57,0)
+   -> ?get_energy@Simulation@@AEAAMXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (59,0)
+   -> ?now@steady_clock@chrono@std@@SA?AV?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@23@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (60,0)
+   -> ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> EXTERN: ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> EXTERN: ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@M@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> EXTERN: ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@M@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> ??$?GUsteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@12@V312@@chrono@std@@YA?AV?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@01@AEBV?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@01@0@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (65,0)
+   -> ??$duration_cast@V?$duration@_JU?$ratio@$00$0PECEA@@std@@@chrono@std@@_JU?$ratio@$00$0DLJKMKAA@@3@$0A@@chrono@std@@YA?AV?$duration@_JU?$ratio@$00$0PECEA@@std@@@01@AEBV?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@01@@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (65,0)
+   -> ?count@?$duration@_JU?$ratio@$00$0PECEA@@std@@@chrono@std@@QEBA_JXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (65,0)
+   -> ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (66,0)
+   -> EXTERN: ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_J@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (66,0)
+   -> ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (66,0)
+   -> ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (66,0)
+   -> ?now@steady_clock@chrono@std@@SA?AV?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@23@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (55,0)
+   -> ?compute_func@Simulation@@AEAAXXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (56,0)
+   -> ?update_data@Simulation@@AEAAXXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (57,0)
+   -> ?get_energy@Simulation@@AEAAMXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (59,0)
+   -> ?now@steady_clock@chrono@std@@SA?AV?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@23@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (60,0)
+   -> ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> EXTERN: ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> EXTERN: ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@M@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> EXTERN: ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@M@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> ??$?GUsteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@12@V312@@chrono@std@@YA?AV?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@01@AEBV?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@01@0@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (65,0)
+   -> ??$duration_cast@V?$duration@_JU?$ratio@$00$0PECEA@@std@@@chrono@std@@_JU?$ratio@$00$0DLJKMKAA@@3@$0A@@chrono@std@@YA?AV?$duration@_JU?$ratio@$00$0PECEA@@std@@@01@AEBV?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@01@@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (65,0)
+   -> ?count@?$duration@_JU?$ratio@$00$0PECEA@@std@@@chrono@std@@QEBA_JXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (65,0)
+   -> ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (66,0)
+   -> EXTERN: ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_J@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (66,0)
+   -> ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (66,0)
+   -> ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (66,0)
+   -> ?now@steady_clock@chrono@std@@SA?AV?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@23@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (55,0)
+   -> ?compute_func@Simulation@@AEAAXXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (56,0)
+   -> ?update_data@Simulation@@AEAAXXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (57,0)
+   -> ?get_energy@Simulation@@AEAAMXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (59,0)
+   -> ?now@steady_clock@chrono@std@@SA?AV?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@23@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (60,0)
+   -> ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> EXTERN: ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> EXTERN: ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@M@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> EXTERN: ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@M@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> ??$?GUsteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@12@V312@@chrono@std@@YA?AV?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@01@AEBV?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@01@0@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (65,0)
+   -> ??$duration_cast@V?$duration@_JU?$ratio@$00$0PECEA@@std@@@chrono@std@@_JU?$ratio@$00$0DLJKMKAA@@3@$0A@@chrono@std@@YA?AV?$duration@_JU?$ratio@$00$0PECEA@@std@@@01@AEBV?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@01@@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (65,0)
+   -> ?count@?$duration@_JU?$ratio@$00$0PECEA@@std@@@chrono@std@@QEBA_JXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (65,0)
+   -> ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (66,0)
+   -> EXTERN: ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_J@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (66,0)
+   -> ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (66,0)
+   -> ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (66,0)
+   -> ?now@steady_clock@chrono@std@@SA?AV?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@23@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (55,0)
+   -> ?compute_func@Simulation@@AEAAXXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (56,0)
+   -> ?update_data@Simulation@@AEAAXXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (57,0)
+   -> ?get_energy@Simulation@@AEAAMXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (59,0)
+   -> ?now@steady_clock@chrono@std@@SA?AV?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@23@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (60,0)
+   -> ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> EXTERN: ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> EXTERN: ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@M@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> EXTERN: ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@M@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (64,0)
+   -> ??$?GUsteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@12@V312@@chrono@std@@YA?AV?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@01@AEBV?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@01@0@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (65,0)
+   -> ??$duration_cast@V?$duration@_JU?$ratio@$00$0PECEA@@std@@@chrono@std@@_JU?$ratio@$00$0DLJKMKAA@@3@$0A@@chrono@std@@YA?AV?$duration@_JU?$ratio@$00$0PECEA@@std@@@01@AEBV?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@01@@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (65,0)
+   -> ?count@?$duration@_JU?$ratio@$00$0PECEA@@std@@@chrono@std@@QEBA_JXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (65,0)
+   -> ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (66,0)
+   -> EXTERN: ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_J@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (66,0)
+   -> ??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (66,0)
+   -> ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (66,0)
+   -> DELETE: llvm.ssa.copy.i32 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (53,0)
+
+COMPILE FUNC: ?__annotate_is_collection_disabled_t_nop@@YAHXZ
+
+COMPILE FUNC: ?__annotate_aggregate_task_t_nop@@YAX_K@Z
+
+COMPILE FUNC: ?__annotate_disable_pop_t_nop@@YAXXZ
+
+COMPILE FUNC: ?__annotate_disable_push_t_nop@@YAXW4__itt_model_disable@@@Z
+
+COMPILE FUNC: ?__annotate_clear_uses_t_nop@@YAXPEAX@Z
+
+COMPILE FUNC: ?__annotate_observe_uses_t_nop@@YAXPEAX_K@Z
+
+COMPILE FUNC: ?__annotate_reduction_uses_t_nop@@YAXPEAX_K@Z
+
+COMPILE FUNC: ?__annotate_induction_uses_t_nop@@YAXPEAX_K@Z
+
+COMPILE FUNC: ?__annotate_record_deallocation_t_nop@@YAXPEAX@Z
+
+COMPILE FUNC: ?__annotate_record_allocation_t_nop@@YAXPEAX_K@Z
+
+COMPILE FUNC: ?__annotate_lock_release_2_t_nop@@YAXPEAX@Z
+
+COMPILE FUNC: ?__annotate_lock_acquire_2_t_nop@@YAXPEAX@Z
+
+COMPILE FUNC: ?__annotate_iteration_taskA_t_nop@@YAXPEBD@Z
+
+COMPILE FUNC: ?__annotate_task_end_2_t_nop@@YAXXZ
+
+COMPILE FUNC: ?__annotate_task_beginA_t_nop@@YAXPEBD@Z
+
+COMPILE FUNC: ?__annotate_site_end_2_t_nop@@YAXXZ
+
+COMPILE FUNC: ?__annotate_site_beginA_t_nop@@YAXPEBD@Z
+
+COMPILE FUNC: ??__E__annotate_routines_s@@YAXXZ
+   -> DELETE: ?__annotate_routines@@YAPEAU0@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> ?__annotate_routines_init@@YAPEAU__annotate_routines@@PEAU1@@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+
+COMPILE FUNC: _GLOBAL__sub_I_getor.cpp
+   -> ??__E__annotate_routines_s@@YAXXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+
+COMPILE FUNC: ?compute_func@Simulation@@AEAAXXZ.extracted
+   -> DELETE: llvm.directive.region.entry D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (79,0)
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> INDIRECT: D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (82,0)
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> ?size@?$array@UBody@@$0CHBA@@std@@QEBA_KXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (84,0)
+   -> ??A?$array@UBody@@$0CHBA@@std@@QEAAAEAUBody@@_K@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (101,0)
+   -> ??A?$array@UBody@@$0CHBA@@std@@QEAAAEAUBody@@_K@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (102,0)
+   -> ??A?$array@UBody@@$0CHBA@@std@@QEAAAEAUBody@@_K@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (103,0)
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> INDIRECT: D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (86,0)
+   -> ??A?$array@UBody@@$0CHBA@@std@@QEAAAEAUBody@@_K@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (89,0)
+   -> ??A?$array@UBody@@$0CHBA@@std@@QEAAAEAUBody@@_K@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (89,0)
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> ??A?$array@UBody@@$0CHBA@@std@@QEAAAEAUBody@@_K@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (90,0)
+   -> ??A?$array@UBody@@$0CHBA@@std@@QEAAAEAUBody@@_K@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (90,0)
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> ??A?$array@UBody@@$0CHBA@@std@@QEAAAEAUBody@@_K@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (91,0)
+   -> ??A?$array@UBody@@$0CHBA@@std@@QEAAAEAUBody@@_K@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (91,0)
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> ?sqrt@@YAMM@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (93,0)
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> ??A?$array@UBody@@$0CHBA@@std@@QEAAAEAUBody@@_K@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (96,0)
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> ??A?$array@UBody@@$0CHBA@@std@@QEAAAEAUBody@@_K@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (97,0)
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> ??A?$array@UBody@@$0CHBA@@std@@QEAAAEAUBody@@_K@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (98,0)
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.directive.region.exit D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (79,0)
+   -> EXTERN: __kmpc_for_static_init_4 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (79,0)
+   -> EXTERN: __kmpc_for_static_fini D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (79,0)
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> ?size@?$array@UBody@@$0CHBA@@std@@QEBA_KXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (84,0)
+
+COMPILE FUNC: ?update_data@Simulation@@AEAAXXZ.extracted
+   -> DELETE: llvm.directive.region.entry D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (114,0)
+   -> DELETE: llvm.directive.region.entry D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (114,0)
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.memcpy.p0.p0.i64 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (114,0)
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> ??Y?$_Array_iterator@UBody@@$0CHBA@@std@@QEAAAEAV01@_J@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (114,0)
+   -> ??D?$_Array_iterator@UBody@@$0CHBA@@std@@QEBAAEAUBody@@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (114,0)
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> INDIRECT: D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (116,0)
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.directive.region.exit D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (114,0)
+   -> DELETE: llvm.directive.region.exit D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (114,0)
+   -> EXTERN: __kmpc_for_static_init_8 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (114,0)
+   -> EXTERN: __kmpc_for_static_fini D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (114,0)
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.memcpy.p0.p0.i64 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (114,0)
+   -> llvm.memcpy.p0.p0.i64 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (114,0)
+   -> llvm.memcpy.p0.p0.i64 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (114,0)
+   -> llvm.memcpy.p0.p0.i64 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (114,0)
+   -> ??Y?$_Array_iterator@UBody@@$0CHBA@@std@@QEAAAEAV01@_J@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (114,0)
+   -> ??Y?$_Array_iterator@UBody@@$0CHBA@@std@@QEAAAEAV01@_J@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (114,0)
+   -> ??Y?$_Array_iterator@UBody@@$0CHBA@@std@@QEAAAEAV01@_J@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (114,0)
+   -> ??Y?$_Array_iterator@UBody@@$0CHBA@@std@@QEAAAEAV01@_J@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (114,0)
+   -> ??D?$_Array_iterator@UBody@@$0CHBA@@std@@QEBAAEAUBody@@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (114,0)
+   -> ??D?$_Array_iterator@UBody@@$0CHBA@@std@@QEBAAEAUBody@@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (114,0)
+   -> ??D?$_Array_iterator@UBody@@$0CHBA@@std@@QEBAAEAUBody@@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (114,0)
+   -> ??D?$_Array_iterator@UBody@@$0CHBA@@std@@QEBAAEAUBody@@XZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (114,0)
+   -> INDIRECT: D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (116,0)
+   -> INDIRECT: D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (116,0)
+   -> INDIRECT: D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (116,0)
+   -> INDIRECT: D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (116,0)
+   -> llvm.masked.gather.v4f32.v4p0 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (118,0)
+   -> llvm.masked.gather.v4f32.v4p0 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (118,0)
+   -> llvm.masked.gather.v4f32.v4p0 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (119,0)
+   -> llvm.masked.gather.v4f32.v4p0 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (119,0)
+   -> llvm.masked.gather.v4f32.v4p0 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (120,0)
+   -> llvm.masked.gather.v4f32.v4p0 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (120,0)
+   -> llvm.masked.gather.v4f32.v4p0 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (122,0)
+   -> llvm.masked.gather.v4f32.v4p0 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (123,0)
+   -> llvm.masked.gather.v4f32.v4p0 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (124,0)
+   -> llvm.masked.scatter.v4f32.v4p0 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (131,0)
+   -> llvm.masked.scatter.v4f32.v4p0 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (132,0)
+   -> llvm.masked.scatter.v4f32.v4p0 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (133,0)
+   -> llvm.masked.scatter.v4f32.v4p0 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (135,0)
+   -> llvm.masked.scatter.v4f32.v4p0 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (136,0)
+   -> llvm.masked.scatter.v4f32.v4p0 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (137,0)
+
+COMPILE FUNC: ?get_energy@Simulation@@AEAAMXZ.extracted
+   -> DELETE: llvm.directive.region.entry D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (146,0)
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> ??A?$array@UBody@@$0CHBA@@std@@QEAAAEAUBody@@_K@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (149,0)
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> ?size@?$array@UBody@@$0CHBA@@std@@QEBA_KXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (152,0)
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> ??A?$array@UBody@@$0CHBA@@std@@QEAAAEAUBody@@_K@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (156,0)
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> ?sqrt@@YAMM@Z D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (161,0)
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> DELETE: llvm.directive.region.exit D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (146,0)
+   -> EXTERN: __kmpc_for_static_init_4 D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (146,0)
+   -> EXTERN: __kmpc_for_static_fini D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (146,0)
+   -> EXTERN: __kmpc_reduce D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (146,0)
+   -> EXTERN: __kmpc_end_reduce D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> EXTERN: __kmpc_atomic_float4_add D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (146,0)
+   -> EXTERN: __kmpc_end_reduce D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> llvm.dbg.assign D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp
+   -> ?size@?$array@UBody@@$0CHBA@@std@@QEBA_KXZ D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (152,0)
+
+COMPILE FUNC: ?get_energy@Simulation@@AEAAMXZ_tree_reduce_32
+
+COMPILE FUNC: ?__annotate_routines_init@@YAPEAU__annotate_routines@@PEAU1@@Z
+   -> EXTERN: getenv D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (309,0)
+   -> DELETE: LoadLibraryA D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (315,0)
+   -> EXTERN: LoadLibraryA D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (318,0)
+   -> EXTERN: GetProcAddress D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (334,0)
+   -> EXTERN: GetProcAddress D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (335,0)
+   -> INDIRECT: D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (337,0)
+   -> INDIRECT: D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (340,0)
+   -> EXTERN: GetProcAddress D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (344,0)
+   -> EXTERN: GetProcAddress D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (345,0)
+   -> EXTERN: GetProcAddress D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (346,0)
+   -> EXTERN: GetProcAddress D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (347,0)
+   -> EXTERN: GetProcAddress D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (348,0)
+   -> EXTERN: GetProcAddress D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (349,0)
+   -> EXTERN: GetProcAddress D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (350,0)
+   -> EXTERN: GetProcAddress D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (351,0)
+   -> EXTERN: GetProcAddress D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (352,0)
+   -> EXTERN: GetProcAddress D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (353,0)
+   -> EXTERN: GetProcAddress D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (354,0)
+   -> EXTERN: GetProcAddress D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (355,0)
+   -> EXTERN: GetProcAddress D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (356,0)
+   -> EXTERN: GetProcAddress D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (358,0)
+   -> EXTERN: GetProcAddress D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (359,0)
+   -> INDIRECT: D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp (384,0)
+
+---- End Inlining Report ------

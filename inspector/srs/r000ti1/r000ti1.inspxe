@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <rdmgr>
+  <timestamp type="u64_t">1715350965</timestamp>
+  <hostname>Revision-PC</hostname>
+  <os>windows</os>
+  <product>Intel® Inspector 2024.0</product>
+  <buildNumber type="s32_t">606730</buildNumber>
+  <logicalCPUCount type="s32_t">16</logicalCPUCount>
+  <physicalCoreCount type="s32_t">8</physicalCoreCount>
+  <processorPackageCount type="s32_t">1</processorPackageCount>
+  <CPUFrequency type="s64_t">4000000000</CPUFrequency>
+  <CPUFamily type="s32_t">25</CPUFamily>
+  <CPUModel type="s32_t">33</CPUModel>
+  <CPUStepping type="s32_t">2</CPUStepping>
+  <CPUBrandName>AMD Ryzen 7 5700X 8-Core Processor             </CPUBrandName>
+  <isa>avx2</isa>
+  <collectionTimeBegin type="u64_t">1715350965</collectionTimeBegin>
+  <collectionTimeEnd type="u64_t">1715352835</collectionTimeEnd>
+  <variables>
+   <at>ti1</at>
+  </variables>
+ </rdmgr>
+</root>

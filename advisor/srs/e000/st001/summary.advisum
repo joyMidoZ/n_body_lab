@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="0.1" 
+                             kind="DATAKIND_SUITABILITY" 
+                             duration_total="5.813572E+01"
+                             num_processors="8" 
+                             num_mic_threads="128" 
+                             threading_paradigm="tbb" 
+                             target_system="cpu" 
+                             program_max_gain="8.528334E-01" >
+  <site filename="D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp" 
+        line_no="77" 
+        label="for_compute_func">
+    <suitability duration_total="2.697491E+01" 
+                 num_instances="7">
+      <estimated_speedup>
+       <scaling threading_paradigm="tbb" 
+                site_overhead="false" 
+                task_overhead="false" 
+                task_chunking="false" 
+                lock_overhead="false" 
+                lock_contention="false" >
+          <scale cpu="8" speedup="3.708594E+01" />
+        </scaling>
+      </estimated_speedup>
+    </suitability>
+  </site>
+  <site filename="D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp" 
+        line_no="111" 
+        label="for_update_data">
+    <suitability duration_total="1.984357E+01" 
+                 num_instances="7">
+      <estimated_speedup>
+       <scaling threading_paradigm="tbb" 
+                site_overhead="false" 
+                task_overhead="false" 
+                task_chunking="false" 
+                lock_overhead="false" 
+                lock_contention="false" >
+          <scale cpu="8" speedup="1.976458E+01" />
+        </scaling>
+      </estimated_speedup>
+    </suitability>
+  </site>
+  <site filename="D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp" 
+        line_no="77" 
+        label="__too deep__">
+    <suitability duration_total="8.930170E-03" 
+                 num_instances="1">
+      <estimated_speedup>
+       <scaling threading_paradigm="tbb" 
+                site_overhead="false" 
+                task_overhead="false" 
+                task_chunking="false" 
+                lock_overhead="false" 
+                lock_contention="false" >
+          <scale cpu="8" speedup="8.946170E-03" />
+        </scaling>
+      </estimated_speedup>
+    </suitability>
+  </site>
+  <task filename="D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp" 
+        line_no="82" 
+        label="for_compute_func_0" 
+        duration_total="3.577651E-03" 
+        num_instances="98125" />
+  <task filename="D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp" 
+        line_no="86" 
+        label="for_compute_func_0_0" 
+        duration_total="2.011119E+01" 
+        num_instances="981250000" />
+  <task filename="D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp" 
+        line_no="116" 
+        label="for_update_data_0" 
+        duration_total="2.066764E+01" 
+        num_instances="88765" />
+</IntelParallelAdvisorSummary >

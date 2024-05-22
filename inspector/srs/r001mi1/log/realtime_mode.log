@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feedback>
+ <message severity="info">Analysis started...</message>
+ <nop/>
+ <message severity="info">Result file: D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\inspector\srs\r001mi1\r001mi1.inspxe </message>
+ <nop/>
+ <message severity="info">-1</message>
+ <nop/>
+ <message severity="info">Loaded module: d:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\build\getor\getor.exe, address range [0x7ff7a4750000-0x7ff7a485efff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\kernelbase.dll, address range [0x7ff8acb50000-0x7ff8aceebfff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\kernel32.dll, address range [0x7ff8af240000-0x7ff8af302fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\ntdll.dll, address range [0x7ff8af690000-0x7ff8af8a3fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files (x86)\intel\oneapi\inspector\2024.0\bin64\dnclrprofinfo.dll, address range [0x7ff886520000-0x7ff886587fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\msvcp140d.dll, address range [0x7ff83a410000-0x7ff83a4f0fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files (x86)\intel\oneapi\compiler\latest\bin\libiomp5md.dll, address range [0x7ff83a1e0000-0x7ff83a40cfff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\ucrtbase.dll, address range [0x1480000-0x1590fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\vcruntime140d.dll, address range [0x7ff8a0110000-0x7ff8a013dfff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\ucrtbased.dll, address range [0x7ff80f410000-0x7ff80f630fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\vcruntime140_1d.dll, address range [0x7ff8a0410000-0x7ff8a041efff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\vcruntime140.dll, address range [0x7ff89f690000-0x7ff89f6acfff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files (x86)\intel\oneapi\inspector\2024.0\bin64\runtime\libittnotify.dll, address range [0x7ff83a160000-0x7ff83a1d0fff], minimal analysis </message>
+ <nop/>
+ <message severity="warning">itt_suppress_pop: Cannot find matching itt_suppress_push. Pop must be called by the same thread that called itt_suppress_push. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\advapi32.dll, address range [0x7ff8af0d0000-0x7ff8af17dfff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\msvcrt.dll, address range [0x7ff8adf80000-0x7ff8ae026fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\sechost.dll, address range [0x1030000-0x10d3fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\rpcrt4.dll, address range [0x7ff8ad4a0000-0x7ff8ad5b4fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\cryptbase.dll, address range [0x7ff8ac300000-0x7ff8ac30bfff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\bcryptprimitives.dll, address range [0x7ff8acad0000-0x7ff8acb4afff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\kernel.appcore.dll, address range [0x7ff8abc10000-0x7ff8abc27fff] </message>
+ <nop/>
+ <message severity="info">-1</message>
+ <nop/>
+ <message severity="info">-1</message>
+ <nop/>
+ <message severity="info">Application exit code: 0 </message>
+ <nop/>
+ <message severity="info">Result file: D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\inspector\srs\r001mi1\r001mi1.inspxe </message>
+ <nop/>
+ <message severity="info">Analysis completed</message>
+ <nop/>
+</feedback>

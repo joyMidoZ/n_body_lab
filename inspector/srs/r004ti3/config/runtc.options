@@ -1,0 +1,23 @@
+-r
+D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\inspector\srs\r004ti3
+--check-deadlock
+--check-potential-deadlock
+--save-stack-on-lock-creation
+--check-datarace
+--no-terminate-on-deadlock
+--resolution=fine
+--no-check-stack-access
+--stack-depth=16
+--sampling-budget=5
+--1cell-mode=last-write
+--tool=tclcore
+--save-stack-on-first-access
+--save-stack-on-allocation
+--check-cross-thread-stack-access
+--no-emit-ctsa-diagnostics
+--no-close-console
+--offload-target=default
+--heartbeat=1
+--app-working-dir=D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\build\getor
+--
+D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\build\getor\getor.exe

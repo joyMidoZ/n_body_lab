@@ -1,0 +1,18 @@
+-r
+D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\inspector\srs\r001mi1
+--no-access-checks
+--no-analyze-stack
+--leak-maximum=100000
+--leak-check-only
+--leak-check-on-exit
+--check-resource-leaks
+--leak-check-report-reachable
+--freelist-vol=0
+--guard-zone-size=0
+--stack-depth=8
+--no-close-console
+--offload-target=default
+--heartbeat=1
+--app-working-dir=D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\build\getor
+--
+D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\build\getor\getor.exe

@@ -1,0 +1,50 @@
+
+=== Start: [2024/05/10 18:22:46] === 
+Analysis started...
+Result file: D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\inspector\srs\r003ti3\r003ti3.inspxe 
+Found target process d:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\build\getor\getor.exe (PID = 10356). Analysis started... 
+Loaded module: d:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\build\getor\getor.exe. 
+Loaded module: c:\windows\system32\kernelbase.dll. 
+Loaded module: c:\windows\system32\kernel32.dll. 
+Loaded module: c:\windows\system32\ntdll.dll. 
+Loaded module: c:\windows\system32\msvcp140d.dll. 
+Loaded module: c:\windows\system32\vcruntime140d.dll. 
+Loaded module: c:\windows\system32\ucrtbased.dll. 
+Loaded module: c:\program files (x86)\intel\oneapi\compiler\latest\bin\libiomp5md.dll. 
+Loaded module: c:\windows\system32\ucrtbase.dll. 
+Loaded module: c:\windows\system32\vcruntime140.dll. 
+Loaded module: c:\windows\system32\vcruntime140_1d.dll. 
+Loaded module: c:\program files (x86)\intel\oneapi\inspector\2024.0\bin64\runtime\libittnotify.dll. 
+Loaded module: c:\windows\system32\advapi32.dll. 
+Loaded module: c:\windows\system32\msvcrt.dll. 
+Loaded module: c:\windows\system32\sechost.dll. 
+Loaded module: c:\windows\system32\rpcrt4.dll. 
+Loaded module: c:\windows\system32\cryptbase.dll. 
+Loaded module: c:\windows\system32\bcryptprimitives.dll. 
+Loaded module: c:\program files (x86)\intel\oneapi\inspector\2024.0\bin64\pinjitprofiling.dll. 
+Loaded module: dynamiccodebin. 
+Warning: One or more threads in the application accessed the stack of another thread. This may indicate one or more bugs in your application. Setting the Inspector to detect data races on stack accesses and running another analysis may help you locate these and other bugs.
+Unloaded module: d:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\build\getor\getor.exe. 
+Unloaded module: c:\windows\system32\kernelbase.dll. 
+Unloaded module: c:\windows\system32\kernel32.dll. 
+Unloaded module: c:\windows\system32\ntdll.dll. 
+Unloaded module: c:\windows\system32\msvcp140d.dll. 
+Unloaded module: c:\windows\system32\vcruntime140d.dll. 
+Unloaded module: c:\windows\system32\ucrtbased.dll. 
+Unloaded module: c:\program files (x86)\intel\oneapi\compiler\latest\bin\libiomp5md.dll. 
+Unloaded module: c:\windows\system32\ucrtbase.dll. 
+Unloaded module: c:\windows\system32\vcruntime140.dll. 
+Unloaded module: c:\windows\system32\vcruntime140_1d.dll. 
+Unloaded module: c:\program files (x86)\intel\oneapi\inspector\2024.0\bin64\runtime\libittnotify.dll. 
+Unloaded module: c:\windows\system32\advapi32.dll. 
+Unloaded module: c:\windows\system32\msvcrt.dll. 
+Unloaded module: c:\windows\system32\sechost.dll. 
+Unloaded module: c:\windows\system32\rpcrt4.dll. 
+Unloaded module: c:\windows\system32\cryptbase.dll. 
+Unloaded module: c:\windows\system32\bcryptprimitives.dll. 
+Unloaded module: c:\program files (x86)\intel\oneapi\inspector\2024.0\bin64\pinjitprofiling.dll. 
+Process d:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\build\getor\getor.exe (PID = 10356) has terminated. 
+Application exit code: 0 
+Result file: D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\inspector\srs\r003ti3\r003ti3.inspxe 
+Analysis completed
+=== End: [2024/05/10 18:26:48] === 

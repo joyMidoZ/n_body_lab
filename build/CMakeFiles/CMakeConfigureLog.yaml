@@ -1,0 +1,170 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files (x86)/Intel/oneAPI/compiler/latest/bin/icx-cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Intel(R) oneAPI DPC++/C++ Compiler for applications running on Intel(R) 64, Version 2024.0.2 Build 20231213
+      Copyright (C) 1985-2023 Intel Corporation. All rights reserved.
+      
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      The C compiler identification is IntelLLVM, found in:
+        D:/раб стол/УНИК/Мага/2 сем/Гетерогенные/labs/siw/build/CMakeFiles/3.29.3/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        Note: including file: ./foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files (x86)/Intel/oneAPI/compiler/latest/bin/icx-cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Intel(R) oneAPI DPC++/C++ Compiler for applications running on Intel(R) 64, Version 2024.0.2 Build 20231213
+      Copyright (C) 1985-2023 Intel Corporation. All rights reserved.
+      
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      The CXX compiler identification is IntelLLVM, found in:
+        D:/раб стол/УНИК/Мага/2 сем/Гетерогенные/labs/siw/build/CMakeFiles/3.29.3/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        Note: including file: ./foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:17 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/\u0440\u0430\u0431 \u0441\u0442\u043e\u043b/\u0423\u041d\u0418\u041a/\u041c\u0430\u0433\u0430/2 \u0441\u0435\u043c/\u0413\u0435\u0442\u0435\u0440\u043e\u0433\u0435\u043d\u043d\u044b\u0435/labs/siw/build/CMakeFiles/CMakeScratch/TryCompile-x52gc1"
+      binary: "D:/\u0440\u0430\u0431 \u0441\u0442\u043e\u043b/\u0423\u041d\u0418\u041a/\u041c\u0430\u0433\u0430/2 \u0441\u0435\u043c/\u0413\u0435\u0442\u0435\u0440\u043e\u0433\u0435\u043d\u043d\u044b\u0435/labs/siw/build/CMakeFiles/CMakeScratch/TryCompile-x52gc1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/Qoption,link,/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/раб стол/УНИК/Мага/2 сем/Гетерогенные/labs/siw/build/CMakeFiles/CMakeScratch/TryCompile-x52gc1'
+        
+        Run Build Command(s): "C:/PROGRA~1/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_ecf44
+        [1/2] C:\\PROGRA~2\\Intel\\oneAPI\\compiler\\latest\\bin\\icx-cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 -QMD -QMT CMakeFiles\\cmTC_ecf44.dir\\CMakeCCompilerABI.c.obj -QMF CMakeFiles\\cmTC_ecf44.dir\\CMakeCCompilerABI.c.obj.d /FoCMakeFiles\\cmTC_ecf44.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_ecf44.dir\\ -c "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ecf44.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- C:\\PROGRA~2\\Intel\\oneAPI\\compiler\\latest\\bin\\icx-cl.exe /nologo CMakeFiles\\cmTC_ecf44.dir\\CMakeCCompilerABI.c.obj  /Qoption,link,/machine:x64  /Qoption,link,/debug /Qoption,link,/INCREMENTAL /Qoption,link,/subsystem:console   /link /out:cmTC_ecf44.exe /implib:cmTC_ecf44.lib /pdb:cmTC_ecf44.pdb /version:0.0 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:17 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/\u0440\u0430\u0431 \u0441\u0442\u043e\u043b/\u0423\u041d\u0418\u041a/\u041c\u0430\u0433\u0430/2 \u0441\u0435\u043c/\u0413\u0435\u0442\u0435\u0440\u043e\u0433\u0435\u043d\u043d\u044b\u0435/labs/siw/build/CMakeFiles/CMakeScratch/TryCompile-duoobh"
+      binary: "D:/\u0440\u0430\u0431 \u0441\u0442\u043e\u043b/\u0423\u041d\u0418\u041a/\u041c\u0430\u0433\u0430/2 \u0441\u0435\u043c/\u0413\u0435\u0442\u0435\u0440\u043e\u0433\u0435\u043d\u043d\u044b\u0435/labs/siw/build/CMakeFiles/CMakeScratch/TryCompile-duoobh"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/Qoption,link,/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/раб стол/УНИК/Мага/2 сем/Гетерогенные/labs/siw/build/CMakeFiles/CMakeScratch/TryCompile-duoobh'
+        
+        Run Build Command(s): "C:/PROGRA~1/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_a016c
+        [1/2] C:\\PROGRA~2\\Intel\\oneAPI\\compiler\\latest\\bin\\icx-cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 -Qstd:c++17 -QMD -QMT CMakeFiles\\cmTC_a016c.dir\\CMakeCXXCompilerABI.cpp.obj -QMF CMakeFiles\\cmTC_a016c.dir\\CMakeCXXCompilerABI.cpp.obj.d /FoCMakeFiles\\cmTC_a016c.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_a016c.dir\\ -c "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_a016c.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- C:\\PROGRA~2\\Intel\\oneAPI\\compiler\\latest\\bin\\icx-cl.exe /nologo CMakeFiles\\cmTC_a016c.dir\\CMakeCXXCompilerABI.cpp.obj  /Qoption,link,/machine:x64  /Qoption,link,/debug /Qoption,link,/INCREMENTAL /Qoption,link,/subsystem:console   /link /out:cmTC_a016c.exe /implib:cmTC_a016c.lib /pdb:cmTC_a016c.pdb /version:0.0 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+...

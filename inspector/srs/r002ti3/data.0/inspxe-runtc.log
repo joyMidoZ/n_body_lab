@@ -1,0 +1,1600 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2024/05/10 18:14:51</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>marker-file</type>
+  <arg>D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\inspector\srs\r002ti3\r002ti3.inspxe</arg>
+</msg>
+<msg id="4" tool="tc">
+  <type>START</type>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:14:51 2024</timestamp>
+</msg>
+<msg id="5" tool="tc">
+  <type>EXEC_OF_INTEREST</type>
+  <arg>d:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\build\getor\getor.exe</arg>
+  <arg>15364</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:14:51 2024</timestamp>
+</msg>
+<msg id="6" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>d:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\build\getor\getor.exe</arg>
+  <arg>0x7ff6007a0000</arg>
+  <arg>0x7ff6008aefff</arg>
+  <arg>2</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:14:51 2024</timestamp>
+</msg>
+<msg id="7" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\kernelbase.dll</arg>
+  <arg>0x7ff8acb50000</arg>
+  <arg>0x7ff8aceebfff</arg>
+  <arg>3</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:14:51 2024</timestamp>
+</msg>
+<msg id="8" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\kernel32.dll</arg>
+  <arg>0x7ff8af240000</arg>
+  <arg>0x7ff8af302fff</arg>
+  <arg>4</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:14:51 2024</timestamp>
+</msg>
+<msg id="9" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\ntdll.dll</arg>
+  <arg>0x7ff8af690000</arg>
+  <arg>0x7ff8af8a3fff</arg>
+  <arg>5</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:14:51 2024</timestamp>
+</msg>
+<msg id="10" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\vcruntime140d.dll</arg>
+  <arg>0x7ff8a03f0000</arg>
+  <arg>0x7ff8a041dfff</arg>
+  <arg>6</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:14:52 2024</timestamp>
+</msg>
+<msg id="11" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcp140d.dll</arg>
+  <arg>0x7ff80f200000</arg>
+  <arg>0x7ff80f2e0fff</arg>
+  <arg>7</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:14:52 2024</timestamp>
+</msg>
+<msg id="12" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\ucrtbased.dll</arg>
+  <arg>0x7ff80ac30000</arg>
+  <arg>0x7ff80ae50fff</arg>
+  <arg>8</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:14:52 2024</timestamp>
+</msg>
+<msg id="13" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\program files (x86)\intel\oneapi\compiler\latest\bin\libiomp5md.dll</arg>
+  <arg>0x7ff80a840000</arg>
+  <arg>0x7ff80aa6cfff</arg>
+  <arg>9</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:14:52 2024</timestamp>
+</msg>
+<msg id="14" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\ucrtbase.dll</arg>
+  <arg>0x7ff8acef0000</arg>
+  <arg>0x7ff8ad000fff</arg>
+  <arg>10</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:14:53 2024</timestamp>
+</msg>
+<msg id="15" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\vcruntime140.dll</arg>
+  <arg>0x7ff89f690000</arg>
+  <arg>0x7ff89f6acfff</arg>
+  <arg>11</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:14:53 2024</timestamp>
+</msg>
+<msg id="16" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\vcruntime140_1d.dll</arg>
+  <arg>0x7ff8a17c0000</arg>
+  <arg>0x7ff8a17cefff</arg>
+  <arg>12</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:14:53 2024</timestamp>
+</msg>
+<msg id="17" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\program files (x86)\intel\oneapi\inspector\2024.0\bin64\runtime\libittnotify.dll</arg>
+  <arg>0x7ff83b910000</arg>
+  <arg>0x7ff83b980fff</arg>
+  <arg>13</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:14:54 2024</timestamp>
+</msg>
+<msg id="18" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\advapi32.dll</arg>
+  <arg>0x7ff8af0d0000</arg>
+  <arg>0x7ff8af17dfff</arg>
+  <arg>14</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:14:54 2024</timestamp>
+</msg>
+<msg id="19" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcrt.dll</arg>
+  <arg>0x7ff8adf80000</arg>
+  <arg>0x7ff8ae026fff</arg>
+  <arg>15</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:14:55 2024</timestamp>
+</msg>
+<msg id="20" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\sechost.dll</arg>
+  <arg>0x7ff8ae030000</arg>
+  <arg>0x7ff8ae0d3fff</arg>
+  <arg>16</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:14:55 2024</timestamp>
+</msg>
+<msg id="21" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\rpcrt4.dll</arg>
+  <arg>0x7ff8ad4a0000</arg>
+  <arg>0x7ff8ad5b4fff</arg>
+  <arg>17</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:14:55 2024</timestamp>
+</msg>
+<msg id="22" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>1640,1074,4772,53853</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:14:55 2024</timestamp>
+</msg>
+<msg id="23" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\cryptbase.dll</arg>
+  <arg>0x7ff8ac300000</arg>
+  <arg>0x7ff8ac30bfff</arg>
+  <arg>18</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:14:55 2024</timestamp>
+</msg>
+<msg id="24" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\bcryptprimitives.dll</arg>
+  <arg>0x7ff8acad0000</arg>
+  <arg>0x7ff8acb4afff</arg>
+  <arg>19</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:14:55 2024</timestamp>
+</msg>
+<msg id="25" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,78,2387504</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:14:56 2024</timestamp>
+</msg>
+<msg id="26" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,24313108</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:14:57 2024</timestamp>
+</msg>
+<msg id="27" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,27129946</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:14:58 2024</timestamp>
+</msg>
+<msg id="28" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,27048733</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:14:59 2024</timestamp>
+</msg>
+<msg id="29" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,27073802</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:00 2024</timestamp>
+</msg>
+<msg id="30" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,25375576</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:01 2024</timestamp>
+</msg>
+<msg id="31" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,24170625</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:02 2024</timestamp>
+</msg>
+<msg id="32" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,24216218</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:03 2024</timestamp>
+</msg>
+<msg id="33" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,25018697</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:04 2024</timestamp>
+</msg>
+<msg id="34" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,26943393</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:05 2024</timestamp>
+</msg>
+<msg id="35" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,52020296</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:06 2024</timestamp>
+</msg>
+<msg id="36" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,24905040</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:07 2024</timestamp>
+</msg>
+<msg id="37" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,24212206</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:08 2024</timestamp>
+</msg>
+<msg id="38" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,24217140</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:09 2024</timestamp>
+</msg>
+<msg id="39" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,25776785</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:10 2024</timestamp>
+</msg>
+<msg id="40" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,27055129</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:11 2024</timestamp>
+</msg>
+<msg id="41" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,27077619</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:12 2024</timestamp>
+</msg>
+<msg id="42" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,27039670</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:13 2024</timestamp>
+</msg>
+<msg id="43" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,27047196</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:14 2024</timestamp>
+</msg>
+<msg id="44" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,24304263</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:15 2024</timestamp>
+</msg>
+<msg id="45" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,25755880</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:16 2024</timestamp>
+</msg>
+<msg id="46" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,27101584</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:17 2024</timestamp>
+</msg>
+<msg id="47" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,27107244</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:18 2024</timestamp>
+</msg>
+<msg id="48" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,27067539</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:19 2024</timestamp>
+</msg>
+<msg id="49" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,54192661</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:20 2024</timestamp>
+</msg>
+<msg id="50" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,27109940</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:21 2024</timestamp>
+</msg>
+<msg id="51" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,54245984</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:22 2024</timestamp>
+</msg>
+<msg id="52" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,27110858</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:23 2024</timestamp>
+</msg>
+<msg id="53" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,27139190</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:24 2024</timestamp>
+</msg>
+<msg id="54" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,25091922</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:25 2024</timestamp>
+</msg>
+<msg id="55" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,24224161</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:26 2024</timestamp>
+</msg>
+<msg id="56" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,24244406</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:27 2024</timestamp>
+</msg>
+<msg id="57" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,27086704</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:28 2024</timestamp>
+</msg>
+<msg id="58" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,27122782</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:29 2024</timestamp>
+</msg>
+<msg id="59" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,54176092</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:30 2024</timestamp>
+</msg>
+<msg id="60" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,27032764</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:31 2024</timestamp>
+</msg>
+<msg id="61" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,24798310</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:32 2024</timestamp>
+</msg>
+<msg id="62" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,24200453</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:33 2024</timestamp>
+</msg>
+<msg id="63" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,24241573</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:34 2024</timestamp>
+</msg>
+<msg id="64" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,24228846</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:35 2024</timestamp>
+</msg>
+<msg id="65" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,24325599</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:36 2024</timestamp>
+</msg>
+<msg id="66" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,26928455</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:37 2024</timestamp>
+</msg>
+<msg id="67" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,27109587</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:38 2024</timestamp>
+</msg>
+<msg id="68" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,27125050</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:39 2024</timestamp>
+</msg>
+<msg id="69" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,25993471</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:40 2024</timestamp>
+</msg>
+<msg id="70" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,24284454</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:41 2024</timestamp>
+</msg>
+<msg id="71" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,24276552</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:42 2024</timestamp>
+</msg>
+<msg id="72" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,24219193</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:43 2024</timestamp>
+</msg>
+<msg id="73" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,24264830</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:44 2024</timestamp>
+</msg>
+<msg id="74" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,25724011</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:45 2024</timestamp>
+</msg>
+<msg id="75" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,27143557</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:46 2024</timestamp>
+</msg>
+<msg id="76" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,27074794</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:47 2024</timestamp>
+</msg>
+<msg id="77" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,54238561</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:48 2024</timestamp>
+</msg>
+<msg id="78" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,27143004</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:49 2024</timestamp>
+</msg>
+<msg id="79" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,26527691</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:50 2024</timestamp>
+</msg>
+<msg id="80" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13324,324,16456,16732</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,24249100</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:51 2024</timestamp>
+</msg>
+<msg id="81" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>16732</arg>
+  <arg>0</arg>
+  <arg>24275299</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:52 2024</timestamp>
+</msg>
+<msg id="82" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>16732</arg>
+  <arg>0</arg>
+  <arg>24261192</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:53 2024</timestamp>
+</msg>
+<msg id="83" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>16732</arg>
+  <arg>0</arg>
+  <arg>26623480</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:54 2024</timestamp>
+</msg>
+<msg id="84" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>16732</arg>
+  <arg>0</arg>
+  <arg>27103185</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:55 2024</timestamp>
+</msg>
+<msg id="85" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>16732</arg>
+  <arg>0</arg>
+  <arg>26991031</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:56 2024</timestamp>
+</msg>
+<msg id="86" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>16732</arg>
+  <arg>0</arg>
+  <arg>26938783</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:57 2024</timestamp>
+</msg>
+<msg id="87" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>16732</arg>
+  <arg>0</arg>
+  <arg>24205088</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:58 2024</timestamp>
+</msg>
+<msg id="88" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>16732</arg>
+  <arg>0</arg>
+  <arg>24142851</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:15:59 2024</timestamp>
+</msg>
+<msg id="89" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>16732</arg>
+  <arg>0</arg>
+  <arg>24232548</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:00 2024</timestamp>
+</msg>
+<msg id="90" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>16732</arg>
+  <arg>0</arg>
+  <arg>24279133</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:01 2024</timestamp>
+</msg>
+<msg id="91" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>16732</arg>
+  <arg>0</arg>
+  <arg>24646458</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:02 2024</timestamp>
+</msg>
+<msg id="92" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>16732</arg>
+  <arg>0</arg>
+  <arg>27151499</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:03 2024</timestamp>
+</msg>
+<msg id="93" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>16732</arg>
+  <arg>0</arg>
+  <arg>27164876</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:04 2024</timestamp>
+</msg>
+<msg id="94" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>16732</arg>
+  <arg>0</arg>
+  <arg>27168611</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:05 2024</timestamp>
+</msg>
+<msg id="95" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>16732</arg>
+  <arg>0</arg>
+  <arg>27125213</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:06 2024</timestamp>
+</msg>
+<msg id="96" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>16732</arg>
+  <arg>0</arg>
+  <arg>25099292</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:07 2024</timestamp>
+</msg>
+<msg id="97" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>16732</arg>
+  <arg>0</arg>
+  <arg>24224195</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:08 2024</timestamp>
+</msg>
+<msg id="98" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>16732</arg>
+  <arg>0</arg>
+  <arg>24218247</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:09 2024</timestamp>
+</msg>
+<msg id="99" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>16732</arg>
+  <arg>0</arg>
+  <arg>24216492</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:10 2024</timestamp>
+</msg>
+<msg id="100" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>16732</arg>
+  <arg>0</arg>
+  <arg>24215252</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:11 2024</timestamp>
+</msg>
+<msg id="101" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>16732</arg>
+  <arg>0</arg>
+  <arg>24011947</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:12 2024</timestamp>
+</msg>
+<msg id="102" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>16732</arg>
+  <arg>0</arg>
+  <arg>23970213</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:13 2024</timestamp>
+</msg>
+<msg id="103" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\program files (x86)\intel\oneapi\inspector\2024.0\bin64\pinjitprofiling.dll</arg>
+  <arg>0x7ff8a03e0000</arg>
+  <arg>0x7ff8a03e7fff</arg>
+  <arg>20</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:14 2024</timestamp>
+</msg>
+<msg id="104" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>dynamiccodebin</arg>
+  <arg>0x0</arg>
+  <arg>0x0</arg>
+  <arg>21</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:14 2024</timestamp>
+</msg>
+<msg id="105" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>16732</arg>
+  <arg>0</arg>
+  <arg>20335747</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:14 2024</timestamp>
+</msg>
+<msg id="106" tool="tc">
+  <type>THREADNAME</type>
+  <arg>16732</arg>
+  <arg>OMP Primary Thread #0</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:15 2024</timestamp>
+</msg>
+<msg id="107" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0</arg>
+  <arg>30,30,30,30,31,30,31,52,50,43,77,95,93,96,647,28117</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:15 2024</timestamp>
+</msg>
+<msg id="108" tool="tc">
+  <type>CTSA_NO_STACK</type>
+  <severity>WARNING</severity>
+  <timestamp>Fri May 10 18:16:15 2024</timestamp>
+</msg>
+<msg id="109" tool="tc">
+  <type>THREADNAME</type>
+  <arg>17404</arg>
+  <arg>OMP Worker Thread #15</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:16 2024</timestamp>
+</msg>
+<msg id="110" tool="tc">
+  <type>THREADNAME</type>
+  <arg>9076</arg>
+  <arg>OMP Worker Thread #14</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:16 2024</timestamp>
+</msg>
+<msg id="111" tool="tc">
+  <type>THREADNAME</type>
+  <arg>17216</arg>
+  <arg>OMP Worker Thread #13</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:16 2024</timestamp>
+</msg>
+<msg id="112" tool="tc">
+  <type>THREADNAME</type>
+  <arg>16372</arg>
+  <arg>OMP Worker Thread #12</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:16 2024</timestamp>
+</msg>
+<msg id="113" tool="tc">
+  <type>THREADNAME</type>
+  <arg>17396</arg>
+  <arg>OMP Worker Thread #11</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:16 2024</timestamp>
+</msg>
+<msg id="114" tool="tc">
+  <type>THREADNAME</type>
+  <arg>16820</arg>
+  <arg>OMP Worker Thread #10</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:16 2024</timestamp>
+</msg>
+<msg id="115" tool="tc">
+  <type>THREADNAME</type>
+  <arg>6116</arg>
+  <arg>OMP Worker Thread #9</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:16 2024</timestamp>
+</msg>
+<msg id="116" tool="tc">
+  <type>THREADNAME</type>
+  <arg>16812</arg>
+  <arg>OMP Worker Thread #8</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:16 2024</timestamp>
+</msg>
+<msg id="117" tool="tc">
+  <type>THREADNAME</type>
+  <arg>2804</arg>
+  <arg>OMP Worker Thread #7</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:16 2024</timestamp>
+</msg>
+<msg id="118" tool="tc">
+  <type>THREADNAME</type>
+  <arg>17400</arg>
+  <arg>OMP Worker Thread #6</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:16 2024</timestamp>
+</msg>
+<msg id="119" tool="tc">
+  <type>THREADNAME</type>
+  <arg>12896</arg>
+  <arg>OMP Worker Thread #5</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:16 2024</timestamp>
+</msg>
+<msg id="120" tool="tc">
+  <type>THREADNAME</type>
+  <arg>16872</arg>
+  <arg>OMP Worker Thread #4</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:16 2024</timestamp>
+</msg>
+<msg id="121" tool="tc">
+  <type>THREADNAME</type>
+  <arg>1388</arg>
+  <arg>OMP Worker Thread #3</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:16 2024</timestamp>
+</msg>
+<msg id="122" tool="tc">
+  <type>THREADNAME</type>
+  <arg>14168</arg>
+  <arg>OMP Worker Thread #2</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:16 2024</timestamp>
+</msg>
+<msg id="123" tool="tc">
+  <type>THREADNAME</type>
+  <arg>1144</arg>
+  <arg>OMP Worker Thread #1</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:16 2024</timestamp>
+</msg>
+<msg id="124" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>2316478,2383140,2257062,2471003,2308219,2289226,1963312,2423948,1988226,1925166,1969214,2232066,2023890,1990629,1987628,11233271</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:16 2024</timestamp>
+</msg>
+<msg id="125" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23244407</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:17 2024</timestamp>
+</msg>
+<msg id="126" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23196638</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:18 2024</timestamp>
+</msg>
+<msg id="127" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25247985</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:19 2024</timestamp>
+</msg>
+<msg id="128" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25432676</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:20 2024</timestamp>
+</msg>
+<msg id="129" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,25394924</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:21 2024</timestamp>
+</msg>
+<msg id="130" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25429793</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:22 2024</timestamp>
+</msg>
+<msg id="131" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25421149</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:23 2024</timestamp>
+</msg>
+<msg id="132" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25394446</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:24 2024</timestamp>
+</msg>
+<msg id="133" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25388534</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:25 2024</timestamp>
+</msg>
+<msg id="134" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,25432912</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:26 2024</timestamp>
+</msg>
+<msg id="135" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24892724</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:27 2024</timestamp>
+</msg>
+<msg id="136" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23148222</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:28 2024</timestamp>
+</msg>
+<msg id="137" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23127681</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:29 2024</timestamp>
+</msg>
+<msg id="138" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23157618</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:30 2024</timestamp>
+</msg>
+<msg id="139" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,23156687</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:31 2024</timestamp>
+</msg>
+<msg id="140" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23151500</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:32 2024</timestamp>
+</msg>
+<msg id="141" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23147907</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:33 2024</timestamp>
+</msg>
+<msg id="142" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23166351</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:34 2024</timestamp>
+</msg>
+<msg id="143" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23108479</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:35 2024</timestamp>
+</msg>
+<msg id="144" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,23164272</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:36 2024</timestamp>
+</msg>
+<msg id="145" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23140840</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:37 2024</timestamp>
+</msg>
+<msg id="146" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23177562</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:38 2024</timestamp>
+</msg>
+<msg id="147" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23014382</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:39 2024</timestamp>
+</msg>
+<msg id="148" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22942257</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:40 2024</timestamp>
+</msg>
+<msg id="149" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,23333251</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:41 2024</timestamp>
+</msg>
+<msg id="150" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23016689</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:42 2024</timestamp>
+</msg>
+<msg id="151" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23057809</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:43 2024</timestamp>
+</msg>
+<msg id="152" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23065598</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:44 2024</timestamp>
+</msg>
+<msg id="153" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46386234</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:45 2024</timestamp>
+</msg>
+<msg id="154" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,24857569</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:46 2024</timestamp>
+</msg>
+<msg id="155" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24435670</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:47 2024</timestamp>
+</msg>
+<msg id="156" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,47517514</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:48 2024</timestamp>
+</msg>
+<msg id="157" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70388201</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:49 2024</timestamp>
+</msg>
+<msg id="158" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23099737</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:50 2024</timestamp>
+</msg>
+<msg id="159" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,23181578</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:51 2024</timestamp>
+</msg>
+<msg id="160" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23175802</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:52 2024</timestamp>
+</msg>
+<msg id="161" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23183727</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:53 2024</timestamp>
+</msg>
+<msg id="162" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23167317</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:54 2024</timestamp>
+</msg>
+<msg id="163" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23181312</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:55 2024</timestamp>
+</msg>
+<msg id="164" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,23184368</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:56 2024</timestamp>
+</msg>
+<msg id="165" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23192638</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:57 2024</timestamp>
+</msg>
+<msg id="166" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23179368</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:58 2024</timestamp>
+</msg>
+<msg id="167" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23162239</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:16:59 2024</timestamp>
+</msg>
+<msg id="168" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23167014</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:00 2024</timestamp>
+</msg>
+<msg id="169" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,23170065</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:01 2024</timestamp>
+</msg>
+<msg id="170" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23180392</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:02 2024</timestamp>
+</msg>
+<msg id="171" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23141455</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:03 2024</timestamp>
+</msg>
+<msg id="172" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23174447</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:04 2024</timestamp>
+</msg>
+<msg id="173" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23202175</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:05 2024</timestamp>
+</msg>
+<msg id="174" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,23187855</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:06 2024</timestamp>
+</msg>
+<msg id="175" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23151888</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:07 2024</timestamp>
+</msg>
+<msg id="176" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23156364</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:08 2024</timestamp>
+</msg>
+<msg id="177" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23175055</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:09 2024</timestamp>
+</msg>
+<msg id="178" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23167916</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:10 2024</timestamp>
+</msg>
+<msg id="179" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,23122979</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:11 2024</timestamp>
+</msg>
+<msg id="180" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>17404,9076,17216,16372,17396,16820,6116,16812,2804,17400,12896,16872,1388,14168,1144,16732</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23120482</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:12 2024</timestamp>
+</msg>
+<msg id="181" tool="tc">
+  <type>STOP_PROCESSED</type>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:12 2024</timestamp>
+</msg>
+<msg id="182" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>d:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\build\getor\getor.exe</arg>
+  <arg>2</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:12 2024</timestamp>
+</msg>
+<msg id="183" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\kernelbase.dll</arg>
+  <arg>3</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:12 2024</timestamp>
+</msg>
+<msg id="184" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\kernel32.dll</arg>
+  <arg>4</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:12 2024</timestamp>
+</msg>
+<msg id="185" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\ntdll.dll</arg>
+  <arg>5</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:12 2024</timestamp>
+</msg>
+<msg id="186" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\vcruntime140d.dll</arg>
+  <arg>6</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:12 2024</timestamp>
+</msg>
+<msg id="187" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcp140d.dll</arg>
+  <arg>7</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:12 2024</timestamp>
+</msg>
+<msg id="188" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\ucrtbased.dll</arg>
+  <arg>8</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:12 2024</timestamp>
+</msg>
+<msg id="189" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\program files (x86)\intel\oneapi\compiler\latest\bin\libiomp5md.dll</arg>
+  <arg>9</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:12 2024</timestamp>
+</msg>
+<msg id="190" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\ucrtbase.dll</arg>
+  <arg>10</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:12 2024</timestamp>
+</msg>
+<msg id="191" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\vcruntime140.dll</arg>
+  <arg>11</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:12 2024</timestamp>
+</msg>
+<msg id="192" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\vcruntime140_1d.dll</arg>
+  <arg>12</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:12 2024</timestamp>
+</msg>
+<msg id="193" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\program files (x86)\intel\oneapi\inspector\2024.0\bin64\runtime\libittnotify.dll</arg>
+  <arg>13</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:12 2024</timestamp>
+</msg>
+<msg id="194" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\advapi32.dll</arg>
+  <arg>14</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:12 2024</timestamp>
+</msg>
+<msg id="195" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcrt.dll</arg>
+  <arg>15</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:12 2024</timestamp>
+</msg>
+<msg id="196" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\sechost.dll</arg>
+  <arg>16</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:12 2024</timestamp>
+</msg>
+<msg id="197" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\rpcrt4.dll</arg>
+  <arg>17</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:12 2024</timestamp>
+</msg>
+<msg id="198" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\cryptbase.dll</arg>
+  <arg>18</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:12 2024</timestamp>
+</msg>
+<msg id="199" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\bcryptprimitives.dll</arg>
+  <arg>19</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:12 2024</timestamp>
+</msg>
+<msg id="200" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\program files (x86)\intel\oneapi\inspector\2024.0\bin64\pinjitprofiling.dll</arg>
+  <arg>20</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:12 2024</timestamp>
+</msg>
+<msg id="201" tool="tc">
+  <type>PROCESS_TERMINATE</type>
+  <arg>d:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\build\getor\getor.exe</arg>
+  <arg>15364</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:12 2024</timestamp>
+</msg>
+<msg id="202" tool="tc">
+  <type>ANALYSIS_COMPLETE</type>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:12 2024</timestamp>
+</msg>
+<msg id="203" tool="tc">
+  <type>STOP</type>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 18:17:12 2024</timestamp>
+</msg>
+<msg id="204" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>0</arg>
+</msg>
+<msg id="205" tool="runtool">
+  <type>marker-file</type>
+  <arg>D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\inspector\srs\r002ti3\r002ti3.inspxe</arg>
+</msg>
+<msg id="206" tool="runtool">
+  <type>collector-aborted</type>
+</msg>
+<msg id="207" tool="runtool">
+  <type>log-end</type>
+  <arg>2024/05/10 18:17:16</arg>
+</msg>
+
+</log>
+

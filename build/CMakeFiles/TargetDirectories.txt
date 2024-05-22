@@ -1,0 +1,5 @@
+D:/раб стол/УНИК/Мага/2 сем/Гетерогенные/labs/siw/build/CMakeFiles/edit_cache.dir
+D:/раб стол/УНИК/Мага/2 сем/Гетерогенные/labs/siw/build/CMakeFiles/rebuild_cache.dir
+D:/раб стол/УНИК/Мага/2 сем/Гетерогенные/labs/siw/build/getor/CMakeFiles/getor.dir
+D:/раб стол/УНИК/Мага/2 сем/Гетерогенные/labs/siw/build/getor/CMakeFiles/edit_cache.dir
+D:/раб стол/УНИК/Мага/2 сем/Гетерогенные/labs/siw/build/getor/CMakeFiles/rebuild_cache.dir

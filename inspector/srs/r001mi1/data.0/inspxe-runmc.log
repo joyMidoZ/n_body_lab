@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2024/05/10 17:55:11</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>marker-file</type>
+  <arg>D:\СЂР°Р± СЃС‚РѕР»\РЈРќРРљ\РњР°РіР°\2 СЃРµРј\Р“РµС‚РµСЂРѕРіРµРЅРЅС‹Рµ\labs\siw\inspector\srs\r001mi1\r001mi1.inspxe</arg>
+</msg>
+<msg id="4" tool="mc">
+  <type>EXEC_OF_INTEREST</type>
+  <arg>d:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\build\getor\getor.exe</arg>
+  <arg>16372</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 17:55:12 2024</timestamp>
+</msg>
+<msg id="5" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>d:\СЂР°Р± СЃС‚РѕР»\РЈРќРРљ\РњР°РіР°\2 СЃРµРј\Р“РµС‚РµСЂРѕРіРµРЅРЅС‹Рµ\labs\siw\build\getor\getor.exe</arg>
+  <arg>0x7ff7a4750000</arg>
+  <arg>0x7ff7a485efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 17:55:12 2024</timestamp>
+</msg>
+<msg id="6" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\system32\kernelbase.dll</arg>
+  <arg>0x7ff8acb50000</arg>
+  <arg>0x7ff8aceebfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 17:55:17 2024</timestamp>
+</msg>
+<msg id="7" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\system32\kernel32.dll</arg>
+  <arg>0x7ff8af240000</arg>
+  <arg>0x7ff8af302fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 17:55:21 2024</timestamp>
+</msg>
+<msg id="8" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\system32\ntdll.dll</arg>
+  <arg>0x7ff8af690000</arg>
+  <arg>0x7ff8af8a3fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 17:55:21 2024</timestamp>
+</msg>
+<msg id="9" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\program files (x86)\intel\oneapi\inspector\2024.0\bin64\dnclrprofinfo.dll</arg>
+  <arg>0x7ff886520000</arg>
+  <arg>0x7ff886587fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 17:55:21 2024</timestamp>
+</msg>
+<msg id="10" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\msvcp140d.dll</arg>
+  <arg>0x7ff83a410000</arg>
+  <arg>0x7ff83a4f0fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 17:55:22 2024</timestamp>
+</msg>
+<msg id="11" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\program files (x86)\intel\oneapi\compiler\latest\bin\libiomp5md.dll</arg>
+  <arg>0x7ff83a1e0000</arg>
+  <arg>0x7ff83a40cfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 17:55:22 2024</timestamp>
+</msg>
+<msg id="12" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\ucrtbase.dll</arg>
+  <arg>0x1480000</arg>
+  <arg>0x1590fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 17:55:23 2024</timestamp>
+</msg>
+<msg id="13" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\vcruntime140d.dll</arg>
+  <arg>0x7ff8a0110000</arg>
+  <arg>0x7ff8a013dfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 17:55:23 2024</timestamp>
+</msg>
+<msg id="14" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\ucrtbased.dll</arg>
+  <arg>0x7ff80f410000</arg>
+  <arg>0x7ff80f630fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 17:55:23 2024</timestamp>
+</msg>
+<msg id="15" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\vcruntime140_1d.dll</arg>
+  <arg>0x7ff8a0410000</arg>
+  <arg>0x7ff8a041efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 17:55:23 2024</timestamp>
+</msg>
+<msg id="16" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\vcruntime140.dll</arg>
+  <arg>0x7ff89f690000</arg>
+  <arg>0x7ff89f6acfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 17:55:23 2024</timestamp>
+</msg>
+<msg id="17" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\program files (x86)\intel\oneapi\inspector\2024.0\bin64\runtime\libittnotify.dll</arg>
+  <arg>0x7ff83a160000</arg>
+  <arg>0x7ff83a1d0fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 17:55:24 2024</timestamp>
+</msg>
+<msg id="18" tool="mc">
+  <type>PAUSE_RESUME_ERROR</type>
+  <severity>WARNING</severity>
+  <timestamp>Fri May 10 17:55:24 2024</timestamp>
+</msg>
+<msg id="19" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\system32\advapi32.dll</arg>
+  <arg>0x7ff8af0d0000</arg>
+  <arg>0x7ff8af17dfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 17:55:25 2024</timestamp>
+</msg>
+<msg id="20" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\system32\msvcrt.dll</arg>
+  <arg>0x7ff8adf80000</arg>
+  <arg>0x7ff8ae026fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 17:55:25 2024</timestamp>
+</msg>
+<msg id="21" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\sechost.dll</arg>
+  <arg>0x1030000</arg>
+  <arg>0x10d3fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 17:55:25 2024</timestamp>
+</msg>
+<msg id="22" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\system32\rpcrt4.dll</arg>
+  <arg>0x7ff8ad4a0000</arg>
+  <arg>0x7ff8ad5b4fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 17:55:25 2024</timestamp>
+</msg>
+<msg id="23" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\system32\cryptbase.dll</arg>
+  <arg>0x7ff8ac300000</arg>
+  <arg>0x7ff8ac30bfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 17:55:25 2024</timestamp>
+</msg>
+<msg id="24" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\system32\bcryptprimitives.dll</arg>
+  <arg>0x7ff8acad0000</arg>
+  <arg>0x7ff8acb4afff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 17:55:25 2024</timestamp>
+</msg>
+<msg id="25" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\kernel.appcore.dll</arg>
+  <arg>0x7ff8abc10000</arg>
+  <arg>0x7ff8abc27fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 17:56:52 2024</timestamp>
+</msg>
+<msg id="26" tool="mc">
+  <type>PROCESS_COMPLETE</type>
+  <arg>d:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\build\getor\getor.exe</arg>
+  <arg>0</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 17:56:52 2024</timestamp>
+</msg>
+<msg id="27" tool="mc">
+  <type>ANALYSIS_COMPLETE</type>
+  <arg>d:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\build\getor\getor.exe</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri May 10 17:56:52 2024</timestamp>
+</msg>
+<msg id="28" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>0</arg>
+</msg>
+<msg id="29" tool="runtool">
+  <type>marker-file</type>
+  <arg>D:\СЂР°Р± СЃС‚РѕР»\РЈРќРРљ\РњР°РіР°\2 СЃРµРј\Р“РµС‚РµСЂРѕРіРµРЅРЅС‹Рµ\labs\siw\inspector\srs\r001mi1\r001mi1.inspxe</arg>
+</msg>
+<msg id="30" tool="runtool">
+  <type>collector-done</type>
+</msg>
+<msg id="31" tool="runtool">
+  <type>log-end</type>
+  <arg>2024/05/10 17:56:56</arg>
+</msg>
+
+</log>
+

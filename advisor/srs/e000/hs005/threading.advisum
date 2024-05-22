@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename="D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp"
+           line_no="53"
+           routine="Simulation::start"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="5.660970E+01"
+           trip_counts="1; 2"
+           func_instance="142"
+           priority="0"/>
+  <hotspot filename="D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp"
+           line_no="79"
+           routine="Simulation::compute_func"
+           is_vectorized="0"
+           self_time="1.858707E-02"
+           total_time="4.691916E+01"
+           trip_counts="10000"
+           func_instance="29"
+           priority="0"/>
+  <hotspot filename="D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp"
+           line_no="84"
+           routine="Simulation::compute_func"
+           is_vectorized="1"
+           self_time="2.823038E+01"
+           total_time="4.690058E+01"
+           trip_counts="10000"
+           func_instance="25"
+           priority="0"/>
+  <hotspot filename="D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp"
+           line_no="152"
+           routine="Simulation::get_energy"
+           is_vectorized="1"
+           self_time="4.003924E+00"
+           total_time="7.454438E+00"
+           trip_counts="10000"
+           func_instance="38"
+           priority="0"/>
+  <hotspot filename="D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp"
+           line_no="146"
+           routine="Simulation::get_energy"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="7.454438E+00"
+           trip_counts="10000"
+           func_instance="40"
+           priority="0"/>
+</IntelParallelAdvisorSummary >

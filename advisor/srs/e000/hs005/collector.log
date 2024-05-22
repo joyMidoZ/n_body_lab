@@ -1,0 +1,55 @@
+Collection status has changed. 1
+Collection has been started.
+Collection has stopped. Application exit code:  0
+Finalizing results
+Finalizing the result
+Clearing the database
+The database has been cleared, elapsed time is 0.269 seconds.
+Loading raw data to the database
+Loading 'systemcollector-15352-Revision-PC.sc' file
+Loading '16920-11332.0.trace' file
+Loading 'userapicollector-11332-ead4f935.trace' file
+Updating precomputed scalar metrics
+Raw data has been loaded to the database, elapsed time is 0.467 seconds.
+Processing profile metrics and debug information
+Data transformations have been finished, elapsed time is 0.002 seconds.
+Setting data model parameters
+Resolving module symbols
+Resolving information for `getor.exe'
+Resolving information for `ntdll.dll'
+Resolving information for `ittnotify_collector.dll'
+Resolving information for `libiomp5md.dll'
+Resolving information for `KERNEL32.DLL'
+Resolving information for `KERNELBASE.dll'
+Resolving information for `ucrtbased.dll'
+Warning: Cannot locate debugging information for file `C:\Windows\SYSTEM32\ntdll.dll'.
+Warning: Cannot locate debugging information for file `C:\Windows\System32\KERNEL32.DLL'.
+Warning: Cannot locate debugging information for file `C:\Program Files (x86)\Intel\oneAPI\advisor\2024.0\bin64\runtime\ittnotify_collector.dll'.
+Resolving information for `tpsstool.dll'
+Warning: Cannot locate debugging information for file `C:\Windows\System32\KERNELBASE.dll'.
+Warning: Cannot locate debugging information for file `C:\Windows\SYSTEM32\ucrtbased.dll'.
+Resolving information for dangling locations
+Warning: Cannot locate debugging information for file `C:\Program Files (x86)\Intel\oneAPI\advisor\2024.0\bin64\tpsstool.dll'.
+Resolving bottom user stack information
+Resolving thread name information
+Resolving call target names for dynamic code
+Symbol resolution has been finished, elapsed time is 0.836 seconds.
+Processing profile metrics and debug information
+Deferred data transformations have been finished, elapsed time is 0.007 seconds.
+Setting data model parameters
+Data model parameters have been set, elapsed time is 0.016 seconds.
+Precomputing frequently used data
+Precomputing frequently used data
+Updating precomputed scalar metrics
+Precomputing frequently used data has been finished, elapsed time is 0.043 seconds.
+Discarding redundant overtime data
+Saving the result
+Redundant overtime data has been discarded, elapsed time is 0.002 seconds.
+Raw collector data has been discarded, elapsed time is 0.000 seconds.
+Finalizing the result took 1.742 seconds.
+Preparing data for display of survey call tree
+Resolving module symbols
+Resolving bottom user stack information
+Resolving thread name information
+Resolving call target names for dynamic code
+Precomputing frequently used data

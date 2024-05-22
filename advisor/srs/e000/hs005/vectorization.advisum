@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename="D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp"
+           line_no="84"
+           routine="Simulation::compute_func"
+           is_vectorized="1"
+           self_time="2.823038E+01"
+           total_time="4.690058E+01"
+           trip_counts="10000"
+           func_instance="25"
+           priority="0"/>
+  <hotspot filename="D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp"
+           line_no="152"
+           routine="Simulation::get_energy"
+           is_vectorized="1"
+           self_time="4.003924E+00"
+           total_time="7.454438E+00"
+           trip_counts="10000"
+           func_instance="38"
+           priority="0"/>
+  <hotspot filename="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\random"
+           line_no="1130"
+           routine="std::mersenne_twister&lt;unsigned int,32,624,397,31,2567483615,11,7,2636928640,15,4022730752,18&gt;::seed"
+           is_vectorized="0"
+           self_time="6.973140E-02"
+           total_time="6.973140E-02"
+           trip_counts="77"
+           func_instance="51"
+           priority="0"/>
+  <hotspot filename="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\random"
+           line_no="1249"
+           routine="std::mersenne_twister&lt;unsigned int,32,624,397,31,2567483615,11,7,2636928640,15,4022730752,18&gt;::_Refill_upper"
+           is_vectorized="1"
+           self_time="4.164704E-02"
+           total_time="4.164704E-02"
+           trip_counts="156"
+           func_instance="48"
+           priority="0"/>
+  <hotspot filename="D:\раб стол\УНИК\Мага\2 сем\Гетерогенные\labs\siw\getor\getor.cpp"
+           line_no="79"
+           routine="Simulation::compute_func"
+           is_vectorized="0"
+           self_time="1.858707E-02"
+           total_time="4.691916E+01"
+           trip_counts="10000"
+           func_instance="29"
+           priority="0"/>
+</IntelParallelAdvisorSummary >
